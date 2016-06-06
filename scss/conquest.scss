@@ -1,0 +1,354 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+.clearfix {
+zoom: 1;
+&:before, &:after {
+content: "";
+display: table;
+}
+&:after {
+clear: both;
+}
+}
+/***** SITE STYLES *************/
+/**********************************/
+
+img{
+	width:100%;
+	display:block;
+}
+
+
+
+body{
+	background-color:black;
+}
+
+.sidebar{
+	display:none;
+}
+
+@media screen and (min-width: 600px) {
+
+
+
+.sidebar img{
+	width:75%;
+	text-align:center;
+	margin: 0 auto;
+	padding-bottom:25px;
+}
+
+img{
+	max-width:none;
+	max-height:none;
+}
+
+
+.div2 img{
+	position: absolute;
+    top: 0;
+    left: 0;
+   width: 100%;
+   height: 100%;
+
+}
+
+.div4 img{
+	position: absolute;
+    top: 0;
+    left: 0;
+   width: 100%;
+   height: 100%;
+
+}
+
+
+.div2:hover .overlay{
+	opacity:0;
+}
+
+.div4:hover .overlay{
+	opacity:0;
+}
+
+.div6:hover .overlay2{
+	opacity:0;
+}
+
+.div7:hover .overlay2{
+	opacity: 0;
+}
+
+.div8:hover .overlay3{
+
+	opacity:0;
+}
+
+.div9:hover .overlay3{
+	opacity: 0;
+}
+
+.overlay3{
+	display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #262626;
+    opacity: 0.5;
+    float: right;
+    width: 100%;
+
+}
+
+
+
+.overlay{
+	display: block;
+    position: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #262626;
+    opacity: 0.5;
+}
+
+.overlay2{
+display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #262626;
+    opacity: 0.5;
+}
+
+
+
+
+
+.div2{
+	repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	padding-bottom:20%;
+	margin-top:-14px;
+	position:absolute;
+}
+
+.div4{
+
+	background-size:cover;
+		margin-top: -14px;
+		position: absolute;
+			height:50%;
+			background-size:cover;
+
+}
+
+
+.div6:hover{
+
+}
+
+.div6{
+	repeat:no-repeat;
+	background-size:cover;
+	position:absolute;
+ 
+}
+
+.div7{
+	repeat:no-repeat;
+	background-size:cover;
+			margin-top: -14px;
+		padding-bottom:30%;
+		position:relative;
+
+
+}
+.div6 img{
+	width:100%;
+	height:100%;
+}
+
+.div7 img{
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+
+.div8{
+	float:right;
+	width:79%;
+	position:relative;
+}
+
+.div9{
+	float:right;
+	width:79%;
+	position:relative;
+}
+
+
+
+.div9 img:hover{
+	transform:scale (1.5,1.5);
+
+}
+
+
+
+
+.div9 img{
+max-height:300px;
+width:100%;
+}
+
+
+
+
+.div8 img:hover{
+	transform:scale (1.5,1.5);
+
+}
+
+
+
+
+.div8 img{
+max-height:300px;
+width:100%;
+}
+
+
+.sidebar{
+	display:block;
+	background-color:black;
+float:left;
+position:fixed;
+width:21%;
+height:100%;
+max-width:280px;
+text-align:center;
+
+a{
+	color:white;
+font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:2.0em;
+}
+ul{
+	margin-left:-40px;
+}
+
+li{
+	margin-bottom:20px;
+}
+
+}
+
+
+.div2{
+	repeat:no-repeat;
+	background-size:cover;
+height:100%;
+width:100%;
+float:left;
+position:absolute;
+	padding-bottom:0%;
+	margin-top: 0px;
+	top:0;
+	bottom:0;
+
+	margin-top:-0px;
+}
+
+.div3{
+float:right;
+width:50%;
+background-color:blue;
+position:relative;
+height:600px;
+}
+
+
+.inner-content{
+	float:right;
+	width:79%;
+	height:600px;
+	position:relative;
+
+}
+
+.div4{
+	background-color:tan;
+    position:absolute;
+	text-align: center;
+  vertical-align:middle;
+    right: 0;
+	top:0;
+	left:0;
+	height:50%;
+		padding-bottom:0%;
+		margin-top: 0px;
+}
+
+.div5{
+	background-color:gray;
+text-align: center;
+  vertical-align:middle;
+	bottom:0;
+	position:absolute;
+	right:0;
+	left:0;
+	height:50%;
+
+
+}
+
+.div6{
+	float:left;
+	width:50%;
+	background-color:blue;
+    height: 100%;
+    	padding-bottom:0%;
+    	margin-top: 0px;
+}
+
+
+.div7{
+	float:right;
+	width:50%;
+	background-color:green;
+	height:100%;
+		padding-bottom:0%;
+		margin-top: 0px;
+}
+
+
+}/*end of 600 */
+
+
+@media screen and (min-width: 800px) {
+
+	 } /*end of 800 */
+
+
+@media screen and (min-width: 1000px) {
+
+	 } /*end of 800 */
+
+@media screen and (min-width: 1000px) {
+
+	 } /*end of 800 */
+
