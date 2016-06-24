@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Conquest Brewery</title>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+        <link rel="stylesheet" href="css/conquest.css">
+        <link rel="stylesheet" href="css/bootstrap-conquest.css">
+<link rel="stylesheet" href="css/bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+
+       
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+</head>
+    <body>
+
+
+
+
+                         <ul class = " bxslider ">
+                                          <li><img src="conquest-img/beerbottle2.png" /></li>
+                                           <li><img src="conquest-img/beerbottle2.png" /></li>
+                                           <li><img src="conquest-img/beerbottle2.png" /></li>
+                                          <li><img src="conquest-img/beerbottle2.png" /></li>
+                                        </ul>
+                                    <script type="text/javascript">
+                  $(document).ready(function(){
+                    
+                $('.bxslider').bxSlider({
+                  auto: true,
+                  autoControls: true
+
+                });
+                  });
+                </script>
+
+
+
+
+
+
+
+
+
+    </body>
+
+    </html>
