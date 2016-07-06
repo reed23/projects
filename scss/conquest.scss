@@ -14,6 +14,40 @@ clear: both;
 /**********************************/
 
 
+
+.div7 > .taste{
+	width:50%;
+	height:15%;
+	position:absolute;
+	z-index:100;
+	margin-top:-268px;
+	margin-left:50px;
+
+}
+
+
+
+.div4 > .conquer-me{
+	width:25%;
+	height:25%;
+}
+
+
+.div2 >.hist9{
+	width:50%;
+	height:30%;
+	margin-left:100px;
+	margin-top:100px;
+
+}
+
+.div2 >.history1{
+	width:50%;
+	margin: 0 auto;
+	height:30%;
+}
+
+
 .beer-holder{
 	width:45%;
 	float:left;
@@ -25,8 +59,8 @@ clear: both;
 	display:block;
 	position:absolute;
 	z-index:100;
-	width:50%;
-	height:30%;
+	width:60%;
+	height:14%;
 	text-align:center;
 	margin-left:135px;
 	margin-top:25%;
@@ -38,9 +72,10 @@ clear: both;
 	position:absolute;
 	z-index:100;
 	width:50%;
-	height:30%;
+	height:20%;
 	text-align:center;
-	margin-top:25%;
+	margin-top:20%;
+	margin-left:20%;
 }
 
 
@@ -106,13 +141,26 @@ body{
 
 @media screen and (min-width: 600px) {
 
+.button-text{
+	position:absolute;
+	z-index:100;
+	width:50%;
+	margin-top:170px;
+	margin-left:150px;
+	p{
+		color: white;
+		font-family: 'Bitter', serif;
+		font-size: 1.5em;
+	}
+}
+
 
 .div6 >.findus{
 	display:block;
 	position:absolute;
 	z-index:100;
-	width:50%;
-	height:30%;
+	width:60%;
+	height:15%;
 	text-align:center;
 	top:0;
 	bottom:0;
@@ -124,7 +172,7 @@ body{
 .beer-row{
 	float:right;
 	width:79%;
-	height:600px;
+	height:650px;
 }
 
 
@@ -133,6 +181,7 @@ body{
 	text-align:center;
 	margin: 0 auto;
 	padding-bottom:25px;
+	margin-top:50px;
 }
 
 img{
@@ -161,7 +210,7 @@ img{
 
 
 .div2:hover .overlay{
-	opacity:0.3;
+	opacity:0;
 }
 
 .div4:hover .overlay{
@@ -210,6 +259,7 @@ img{
     bottom: 0;
     background: #262626;
     opacity: 0.5;
+	    background: url('../conquest-img/patternpng.png') no-repeat center center;
 }
 
 .overlay2{
@@ -221,6 +271,8 @@ display: block;
     bottom: 0;
     background: #262626;
     opacity: 0.5;
+    	    background: url('../conquest-img/patternpng.png') no-repeat center center;
+
 }
 
 
@@ -234,7 +286,7 @@ display: block;
 	padding-bottom:20%;
 	margin-top:-14px;
 	position:absolute;
-	    background: url('../conquest-img/patt-back3.jpg') no-repeat center center;
+	    background: url('../conquest-img/mid-knight2.png') no-repeat center center;
 
 }
 
@@ -340,7 +392,7 @@ text-align:center;
 
 a{
 	color:#ddd7d7;
-font-family: 'Eagle Lake', cursive;
+font-family: 'Bitter', serif;
 	text-transform:uppercase;
 
 	font-size:1.5em;
@@ -384,7 +436,7 @@ position:absolute;
 	bottom:0;
 
 	margin-top:-0px;
-     background: url('../conquest-img/bar12.jpg') no-repeat center center;
+	    background: url('../conquest-img/midknight2.png') no-repeat center center;
 
 
 }
@@ -394,14 +446,14 @@ float:right;
 width:55%;
 background-color:blue;
 position:relative;
-height:600px;
+height:650px;
 }
 
 
 .inner-content{
 	float:right;
 	width:79%;
-	height:600px;
+	height:650px;
 	position:relative;
 
 }
