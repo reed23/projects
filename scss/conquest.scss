@@ -13,10 +13,81 @@ clear: both;
 /***** SITE STYLES *************/
 /**********************************/
 
+.special1 > .sidebar{
+	margin-left:40px;
+}
 
+.tab-content{
+float:right;
+width:79%;
+}
 
+#menu2{
+	width:100%;
+}
+.sidebar ,.special a{
+	margin:0;
+
+}
+#menu1{
+	float:right;
+	
+
+    top: 0;
+    bottom: 0;
+    width: 78%;
+
+    right: 0;
+    height: 100%;
+    height: 650px;
+    position:absolute;
+    z-index: 1000;
+
+  
+}
+
+.left-1{
+	background-color:blue;
+	width:33.3%;
+	height:650px;
+	float:left;
+
+}
+.left-1 img{
+	bottom:0;
+	height:100%;
+	background-size:cover;
+
+}
+
+.left-2{
+	background-color:green;
+	
+	height:650px;
+	width:33.3%;
+	float:left;
+}
+.left-2 img{
+	bottom:0;
+	height:100%;
+	background-size:cover;
+}
+.left-3{
+	
+	background-color:yellow;
+	height:650px;
+	width:33.3%;
+	float:right;
+}
+
+.left-3 img{
+	bottom:0;
+	height:100%;
+	background-size:cover;
+	margin-left:-1px;
+}
 .div7 > .taste{
-	width:50%;
+	width:60%;
 	height:15%;
 	position:absolute;
 	z-index:100;
@@ -385,7 +456,7 @@ width:100%;
 	background-color:black;
 float:left;
 position:fixed;
-width:21%;
+width:22%;
 height:100%;
 max-width:280px;
 text-align:center;
@@ -396,7 +467,7 @@ font-family: 'Bitter', serif;
 	text-transform:uppercase;
 
 	font-size:1.5em;
-	margin-left:-40px;
+	
 	
 }
 ul{
@@ -425,7 +496,7 @@ nav{
 .div2{
 	repeat:no-repeat;
 	background-size:cover;
-	width:45%;
+	width:46%;
 	float:left;
 height:100%;
 float:left;
@@ -451,10 +522,12 @@ height:650px;
 
 
 .inner-content{
-	float:right;
 	width:79%;
 	height:650px;
-	position:relative;
+	position:absolute;
+	right:0;
+	bottom:0;
+	top:0;
 
 }
 

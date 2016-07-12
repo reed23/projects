@@ -8,40 +8,49 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.js"> </script>
+    
+<script src="js/tabtab.min.js"></script>
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="css/conquest.css">
     <link rel="stylesheet" href="css/bootstrap-conquest.css">
     <link rel="stylesheet" href="css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-      <script src="js/navi-1.9.1.js"></script>
-    
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class ="holdme clearfix">
       <div class ="sidebar">
         <img src="conquest-img/logo2.png">
         <nav>
-          <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">about us</a></li>
-            
-            <li><a href="#">Our Beers</a></li>
-            
-            <li><a href="#">find us</a></li>
-          </ul>
+           <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+  
+    <li><a data-toggle="tab" href="#menu1">About Us</a></li>
+    <li><a data-toggle="tab" href="#menu2">Our Beers</a></li>
+    <li><a data-toggle="tab" href="#menu3">Find Us</a></li>
+  </ul>
           
         </nav>
-        <nav id='naviMenu'>
-  <ul>
-    <li class="active"> <a href='#!/page1'>Page1</a> </li>
-    <li> <a href='#!/page2'>Page2</a> </li>
-    <li> <a href='#!/page3'>Page3</a> </li>
-  </ul>
-</nav>
-        
-        </div> <!--div1 -->
-        
-        <div class = " row inner-content clearfix">
+
+
+
+
+
+
+
+
+
+
+      </div> <!--end of sidebar -->
+
+ 
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active row inner-content clearfix">
+      
           <div class =" row-sm-height div2">
             <span class="overlay"></span>
             <img class ="hist9"img src="conquest-img/history9.png">
@@ -77,15 +86,39 @@
                       </div> <!--end of div3 -->
                       
                       </div> <!--end of inner -content -->
-                      
-                      <!-- CONTENT FOR WEBSITE -->
-                                    <section id='naviContent'>
-                <ul>
-                  <li id='page1'> Content for page 1 here </li>
-                  <li id='page2'> Content for page 2 here </li>
-                  <li id='page3'> Content for page 3 here </li>
-                </ul>
-              </section>
+   
+    <div id="menu1" class="tab-pane fade">
+      
+  >
+
+    </div> <!--end o menu1 -->
+    <div id="menu2" class="tab-pane fade clearfix">
+        <div class="left-1">
+
+<img src="conquest-img/knighttest.jpg">
+    </div> <!--end of left-1 -->
+    <div class ="left-2">
+<img src="conquest-img/knighttest.jpg">
+
+
+    </div> <!--end of left-2 -->
+
+    <div class ="left-3">
+
+<img src="conquest-img/knighttest.jpg">
+
+
+    </div> <!--end of left-3 -->
+    </div> <!--end of menu 2 -->
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+
+
+
+
 
 
                       

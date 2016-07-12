@@ -14,5 +14,8 @@
     "grunt-contrib-watch": "^0.6.1",
     "jquery": "^2.1.4",
     "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "tabtab.js": "^0.1.3"
   }
 }
