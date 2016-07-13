@@ -975,9 +975,11 @@ hr {
   -webkit-transition: opacity 0.15s linear;
   -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
+  display: none;
 }
 .fade.in {
   opacity: 1;
+  display: block;
 }
 .collapse {
   display: none;

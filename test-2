@@ -1,54 +1,61 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Conquest Brewery</title>
-        <script src="js/jquery.bxslider.min.js"></script>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-        <link rel="stylesheet" href="css/conquest.css">
-        <link rel="stylesheet" href="css/bootstrap-conquest.css">
-<link rel="stylesheet" href="css/bxslider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
-
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Conquest Brewery</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/conquest.css">
+    <link rel="stylesheet" href="css/bootstrap-conquest.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+      <script src="js/navi-1.9.1.js"></script>
+    
+  </head>
+  <body>
+    <div class ="holdme clearfix">
+      <div class ="sidebar">
+        <img src="conquest-img/logo2.png">
+        <nav>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            
+            <li><a href="#">Our Beers</a></li>
+            
+            <li><a href="#">find us</a></li>
+          </ul>
+          
+        </nav>
+        <nav id='naviMenu'>
+  <ul>
+    <li class="active"> <a href='#!/page1'>Page1</a> </li>
+    <li> <a href='#!/page2'>Page2</a> </li>
+    <li> <a href='#!/page3'>Page3</a> </li>
+  </ul>
+</nav>
+        
+        </div> <!--div1 -->
+        
        
-<script src="js/jquery.bxslider.min.js"></script>
-<!-- bxSlider CSS file -->
-</head>
-    <body>
+                      <!-- CONTENT FOR WEBSITE -->
+                                    <section id='naviContent'>
+                <ul>
+                  <li id='page1'> Content for page 1 here </li>
+                  <li id='page2'> Content for page 2 here </li>
+                  <li id='page3'> Content for page 3 here </li>
+                </ul>
+              </section>
 
 
-
-
-                         <ul class = " bxslider ">
-                                          <li><img src="conquest-img/beerbottle2.png" /></li>
-                                           <li><img src="conquest-img/beerbottle2.png" /></li>
-                                           <li><img src="conquest-img/beerbottle2.png" /></li>
-                                          <li><img src="conquest-img/beerbottle2.png" /></li>
-                                        </ul>
-                                    <script type="text/javascript">
-                  $(document).ready(function(){
-                    
-                $('.bxslider').bxSlider({
-                  auto: true,
-                  autoControls: true
-
-                });
-                  });
-                </script>
-
-
-
-
-
-
-
-
-
-    </body>
-
-    </html>
+                      
+                      </div> <!--end of holdme -->
+                      
+                      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+                      
+                    </body>
+                  </html>

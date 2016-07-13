@@ -14,6 +14,160 @@ clear: both;
 /**********************************/
 
 
+.beer-1 a{
+	position:absolute;
+	color:white;
+
+
+}
+.beer-2 a{
+	position:absolute;
+	color:white;
+}
+
+.beer-3 a{
+	position:absolute;
+	color:white;
+}
+
+
+
+
+#beers div{
+	height:650px;
+	width:33.3%;
+	float:left;
+}
+#beers img{
+	position: absolute;
+    top: 0;
+   width:26%;
+  
+   height: 100%;
+}
+
+.practice-nav{
+	
+
+	a{
+		text-decoration: none;
+	}
+	li{
+		list-style-type: none;
+	}
+}
+
+
+.special1 > .sidebar{
+	margin-left:40px;
+}
+
+.tab-content{
+float:right;
+width:78%;
+}
+
+#menu2{
+	width:100%;
+}
+.sidebar ,.special a{
+	margin:0;
+
+}
+#menu1{
+	float:right;
+	
+
+    top: 0;
+    bottom: 0;
+    width: 78%;
+
+    right: 0;
+    height: 100%;
+    height: 650px;
+    position:absolute;
+    z-index: 1000;
+
+  
+}
+
+.left-1{
+	background-color:blue;
+	width:33.3%;
+	height:650px;
+	float:left;
+
+}
+.left-1 img{
+	bottom:0;
+	height:100%;
+	background-size:cover;
+
+}
+
+.left-2{
+	background-color:green;
+	
+	height:650px;
+	width:33.3%;
+	float:left;
+}
+.left-2 img{
+	bottom:0;
+	height:100%;
+	background-size:cover;
+}
+.left-3{
+	
+	background-color:yellow;
+	height:650px;
+	width:33.3%;
+	float:right;
+}
+
+.left-3 img{
+	bottom:0;
+	height:100%;
+	background-size:cover;
+	margin-left:-1px;
+}
+.div7 > .taste{
+	width:60%;
+	height:15%;
+	position:absolute;
+	z-index:100;
+	margin-top:-268px;
+	margin-left:50px;
+
+}
+
+
+
+.div4 > .conquer-me{
+	width:25%;
+	height:25%;
+}
+
+
+.div2 >.hist9{
+	width:50%;
+	height:30%;
+	margin-left:100px;
+	margin-top:100px;
+	position:absolute;
+
+}
+
+.div2 >.history1{
+	width:50%;
+	margin: 0 auto;
+	height:30%;
+}
+
+.beers{
+	height:650px;
+}
+
 .beer-holder{
 	width:45%;
 	float:left;
@@ -25,8 +179,8 @@ clear: both;
 	display:block;
 	position:absolute;
 	z-index:100;
-	width:50%;
-	height:30%;
+	width:60%;
+	height:14%;
 	text-align:center;
 	margin-left:135px;
 	margin-top:25%;
@@ -38,9 +192,10 @@ clear: both;
 	position:absolute;
 	z-index:100;
 	width:50%;
-	height:30%;
+	height:20%;
 	text-align:center;
-	margin-top:25%;
+	margin-top:20%;
+	margin-left:20%;
 }
 
 
@@ -81,9 +236,6 @@ img{
 
 
 
-body{
-	background-color:black;
-}
 
 .sidebar{
 	display:none;
@@ -106,13 +258,26 @@ body{
 
 @media screen and (min-width: 600px) {
 
+.button-text{
+	position:absolute;
+	z-index:100;
+	width:50%;
+	margin-top:170px;
+	margin-left:150px;
+	p{
+		color: white;
+		font-family: 'Bitter', serif;
+		font-size: 1.5em;
+	}
+}
+
 
 .div6 >.findus{
 	display:block;
 	position:absolute;
 	z-index:100;
-	width:50%;
-	height:30%;
+	width:60%;
+	height:15%;
 	text-align:center;
 	top:0;
 	bottom:0;
@@ -124,7 +289,7 @@ body{
 .beer-row{
 	float:right;
 	width:79%;
-	height:600px;
+	height:650px;
 }
 
 
@@ -133,6 +298,7 @@ body{
 	text-align:center;
 	margin: 0 auto;
 	padding-bottom:25px;
+	margin-top:50px;
 }
 
 img{
@@ -141,14 +307,6 @@ img{
 }
 
 
-.div2 img{
-	position: absolute;
-    top: 0;
-    left: 0;
-   width: 100%;
-   height: 100%;
-
-}
 
 .div4 img{
 	position: absolute;
@@ -161,7 +319,7 @@ img{
 
 
 .div2:hover .overlay{
-	opacity:0.3;
+	opacity:0;
 }
 
 .div4:hover .overlay{
@@ -210,6 +368,7 @@ img{
     bottom: 0;
     background: #262626;
     opacity: 0.5;
+	    background: url('../conquest-img/patternpng.png') no-repeat center center;
 }
 
 .overlay2{
@@ -221,6 +380,8 @@ display: block;
     bottom: 0;
     background: #262626;
     opacity: 0.5;
+    	    background: url('../conquest-img/patternpng.png') no-repeat center center;
+
 }
 
 
@@ -231,12 +392,82 @@ display: block;
 	repeat:no-repeat;
 	background-size:cover;
 	width:100%;
-	padding-bottom:20%;
 	margin-top:-14px;
 	position:absolute;
-	    background: url('../conquest-img/patt-back3.jpg') no-repeat center center;
-
+	  overflow: hidden;
+ 
 }
+
+
+
+
+.div4 > .hist9{
+	    -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .5s ease-in-out;
+-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+        max-width: 100%;
+          overflow: auto;
+}
+
+.div4:hover > .hist9{
+
+-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     max-width: 100%;
+         -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%); 
+}
+
+.div2 > .my-knight{
+	    -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .5s ease-in-out;
+-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+        max-width: 100%;
+          overflow: auto;
+}
+
+.div2:hover > .my-knight{
+
+-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     max-width: 100%;
+         -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%); 
+}
+
+
+
+
+
+
 
 .div4{
 
@@ -245,7 +476,7 @@ display: block;
 		position: absolute;
 			height:50%;
 			background-size:cover;
-
+  overflow: hidden;
 }
 
 
@@ -333,18 +564,18 @@ width:100%;
 	background-color:black;
 float:left;
 position:fixed;
-width:21%;
+width:22%;
 height:100%;
 max-width:280px;
 text-align:center;
 
 a{
 	color:#ddd7d7;
-font-family: 'Oswald', sans-serif;
+font-family: 'Bitter', serif;
 	text-transform:uppercase;
 
 	font-size:1.5em;
-	margin-left:-40px;
+	
 	
 }
 ul{
@@ -373,7 +604,7 @@ nav{
 .div2{
 	repeat:no-repeat;
 	background-size:cover;
-	width:45%;
+	width:46%;
 	float:left;
 height:100%;
 float:left;
@@ -384,25 +615,35 @@ position:absolute;
 	bottom:0;
 
 	margin-top:-0px;
-     background: url('../conquest-img/bar12.jpg') no-repeat center center;
+	   
 
 
 }
+
+
+.div2 > .my-knight{
+	position:absolute;
+	height:100%;
+
+}
+
 
 .div3{
 float:right;
 width:55%;
 background-color:blue;
 position:relative;
-height:600px;
+height:650px;
 }
 
 
 .inner-content{
-	float:right;
 	width:79%;
-	height:600px;
-	position:relative;
+	height:650px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	top:0;
 
 }
 
