@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Site Template</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+        <link rel="stylesheet" href="css/conquest.css">
+   <script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+    $("#chicken").click(function(){
+        $(".reed").hide();
+    });
+    $("#beer").click(function(){
+        $(".reed").show();
+        
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on the "Hide" button, I will disappear.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<button id="chicken">Chicken</button>
+<button id="beer">beer</button>
+<div class ="reed">
+    <p>Blah blah blah blah blah</p>
+
+
+
+</div>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
+
+
+
+
+

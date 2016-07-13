@@ -13,13 +13,58 @@ clear: both;
 /***** SITE STYLES *************/
 /**********************************/
 
+
+.beer-1 a{
+	position:absolute;
+	color:white;
+
+
+}
+.beer-2 a{
+	position:absolute;
+	color:white;
+}
+
+.beer-3 a{
+	position:absolute;
+	color:white;
+}
+
+
+
+
+#beers div{
+	height:650px;
+	width:33.3%;
+	float:left;
+}
+#beers img{
+	position: absolute;
+    top: 0;
+   width:26%;
+  
+   height: 100%;
+}
+
+.practice-nav{
+	
+
+	a{
+		text-decoration: none;
+	}
+	li{
+		list-style-type: none;
+	}
+}
+
+
 .special1 > .sidebar{
 	margin-left:40px;
 }
 
 .tab-content{
 float:right;
-width:79%;
+width:78%;
 }
 
 #menu2{
@@ -109,6 +154,7 @@ width:79%;
 	height:30%;
 	margin-left:100px;
 	margin-top:100px;
+	position:absolute;
 
 }
 
@@ -118,6 +164,9 @@ width:79%;
 	height:30%;
 }
 
+.beers{
+	height:650px;
+}
 
 .beer-holder{
 	width:45%;
@@ -187,9 +236,6 @@ img{
 
 
 
-body{
-	background-color:black;
-}
 
 .sidebar{
 	display:none;
@@ -261,14 +307,6 @@ img{
 }
 
 
-.div2 img{
-	position: absolute;
-    top: 0;
-    left: 0;
-   width: 100%;
-   height: 100%;
-
-}
 
 .div4 img{
 	position: absolute;
@@ -354,12 +392,82 @@ display: block;
 	repeat:no-repeat;
 	background-size:cover;
 	width:100%;
-	padding-bottom:20%;
 	margin-top:-14px;
 	position:absolute;
-	    background: url('../conquest-img/mid-knight2.png') no-repeat center center;
-
+	  overflow: hidden;
+ 
 }
+
+
+
+
+.div4 > .hist9{
+	    -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .5s ease-in-out;
+-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+        max-width: 100%;
+          overflow: auto;
+}
+
+.div4:hover > .hist9{
+
+-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     max-width: 100%;
+         -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%); 
+}
+
+.div2 > .my-knight{
+	    -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .5s ease-in-out;
+-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+        max-width: 100%;
+          overflow: auto;
+}
+
+.div2:hover > .my-knight{
+
+-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     max-width: 100%;
+         -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%); 
+}
+
+
+
+
+
+
 
 .div4{
 
@@ -368,7 +476,7 @@ display: block;
 		position: absolute;
 			height:50%;
 			background-size:cover;
-
+  overflow: hidden;
 }
 
 
@@ -507,10 +615,18 @@ position:absolute;
 	bottom:0;
 
 	margin-top:-0px;
-	    background: url('../conquest-img/midknight2.png') no-repeat center center;
+	   
 
 
 }
+
+
+.div2 > .my-knight{
+	position:absolute;
+	height:100%;
+
+}
+
 
 .div3{
 float:right;
