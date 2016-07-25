@@ -16,32 +16,92 @@
 
 /***** SITE STYLES *************/
 /**********************************/
-/* line 17, ../scss/conquest.scss */
+/* line 16, ../scss/conquest.scss */
+.beer-rack > .beer-talk {
+  width: 259px;
+  color: blue;
+  position: absolute;
+  margin-left: 30px;
+  bottom: 0;
+  z-index: 1000;
+}
+
+/* line 28, ../scss/conquest.scss */
+.beer-row-2 {
+  width: 100%;
+  padding: 10%;
+}
+
+/* line 33, ../scss/conquest.scss */
+#beers-season p {
+  color: white;
+  width: 50%;
+  float: right;
+  margin-top: -260px;
+}
+
+/* line 40, ../scss/conquest.scss */
+#beers-season {
+  width: 100%;
+  height: 100%;
+  background: url("../conquest-img/dark-knight.jpeg") no-repeat center center;
+  padding-bottom: 50%;
+  background-size: cover;
+  margin-top: -30px;
+  background-color: black;
+  height: 2000px;
+}
+
+/* line 52, ../scss/conquest.scss */
+.beer-rack img {
+  position: relative;
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+  width: 25%;
+  float: left;
+}
+
+/* line 64, ../scss/conquest.scss */
+.beer-rack p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: blue;
+  position: relative;
+  z-index: 100;
+}
+
+/* line 76, ../scss/conquest.scss */
 .beer-1 a {
   position: absolute;
   color: white;
 }
 
-/* line 23, ../scss/conquest.scss */
+/* line 82, ../scss/conquest.scss */
 .beer-2 a {
   position: absolute;
   color: white;
 }
 
-/* line 28, ../scss/conquest.scss */
+/* line 87, ../scss/conquest.scss */
 .beer-3 a {
   position: absolute;
   color: white;
 }
 
-/* line 36, ../scss/conquest.scss */
+/* line 95, ../scss/conquest.scss */
 #beers div {
   height: 650px;
   width: 33.3%;
   float: left;
 }
 
-/* line 41, ../scss/conquest.scss */
+/* line 100, ../scss/conquest.scss */
 #beers img {
   position: absolute;
   top: 0;
@@ -49,37 +109,37 @@
   height: 100%;
 }
 
-/* line 52, ../scss/conquest.scss */
+/* line 111, ../scss/conquest.scss */
 .practice-nav a {
   text-decoration: none;
 }
-/* line 55, ../scss/conquest.scss */
+/* line 114, ../scss/conquest.scss */
 .practice-nav li {
   list-style-type: none;
 }
 
-/* line 61, ../scss/conquest.scss */
+/* line 120, ../scss/conquest.scss */
 .special1 > .sidebar {
   margin-left: 40px;
 }
 
-/* line 65, ../scss/conquest.scss */
+/* line 124, ../scss/conquest.scss */
 .tab-content {
   float: right;
   width: 78%;
 }
 
-/* line 70, ../scss/conquest.scss */
+/* line 129, ../scss/conquest.scss */
 #menu2 {
   width: 100%;
 }
 
-/* line 73, ../scss/conquest.scss */
+/* line 132, ../scss/conquest.scss */
 .sidebar, .special a {
   margin: 0;
 }
 
-/* line 77, ../scss/conquest.scss */
+/* line 136, ../scss/conquest.scss */
 #menu1 {
   float: right;
   top: 0;
@@ -92,7 +152,7 @@
   z-index: 1000;
 }
 
-/* line 94, ../scss/conquest.scss */
+/* line 153, ../scss/conquest.scss */
 .left-1 {
   background-color: blue;
   width: 33.3%;
@@ -100,14 +160,14 @@
   float: left;
 }
 
-/* line 101, ../scss/conquest.scss */
+/* line 160, ../scss/conquest.scss */
 .left-1 img {
   bottom: 0;
   height: 100%;
   background-size: cover;
 }
 
-/* line 108, ../scss/conquest.scss */
+/* line 167, ../scss/conquest.scss */
 .left-2 {
   background-color: green;
   height: 650px;
@@ -115,14 +175,14 @@
   float: left;
 }
 
-/* line 115, ../scss/conquest.scss */
+/* line 174, ../scss/conquest.scss */
 .left-2 img {
   bottom: 0;
   height: 100%;
   background-size: cover;
 }
 
-/* line 120, ../scss/conquest.scss */
+/* line 179, ../scss/conquest.scss */
 .left-3 {
   background-color: yellow;
   height: 650px;
@@ -130,7 +190,7 @@
   float: right;
 }
 
-/* line 128, ../scss/conquest.scss */
+/* line 187, ../scss/conquest.scss */
 .left-3 img {
   bottom: 0;
   height: 100%;
@@ -138,7 +198,7 @@
   margin-left: -1px;
 }
 
-/* line 134, ../scss/conquest.scss */
+/* line 193, ../scss/conquest.scss */
 .div7 > .taste {
   width: 60%;
   height: 15%;
@@ -148,13 +208,13 @@
   margin-left: 50px;
 }
 
-/* line 146, ../scss/conquest.scss */
+/* line 205, ../scss/conquest.scss */
 .div4 > .conquer-me {
   width: 25%;
   height: 25%;
 }
 
-/* line 152, ../scss/conquest.scss */
+/* line 211, ../scss/conquest.scss */
 .div2 > .hist9 {
   width: 50%;
   height: 30%;
@@ -163,19 +223,19 @@
   position: absolute;
 }
 
-/* line 161, ../scss/conquest.scss */
+/* line 220, ../scss/conquest.scss */
 .div2 > .history1 {
   width: 50%;
   margin: 0 auto;
   height: 30%;
 }
 
-/* line 167, ../scss/conquest.scss */
+/* line 226, ../scss/conquest.scss */
 .beers {
   height: 650px;
 }
 
-/* line 171, ../scss/conquest.scss */
+/* line 230, ../scss/conquest.scss */
 .beer-holder {
   width: 45%;
   float: left;
@@ -183,7 +243,7 @@
   height: 100%;
 }
 
-/* line 178, ../scss/conquest.scss */
+/* line 237, ../scss/conquest.scss */
 .div4 > .beers-pic {
   display: block;
   position: absolute;
@@ -195,7 +255,7 @@
   margin-top: 25%;
 }
 
-/* line 190, ../scss/conquest.scss */
+/* line 249, ../scss/conquest.scss */
 .div6 > .findus {
   display: block;
   position: absolute;
@@ -207,7 +267,7 @@
   margin-left: 20%;
 }
 
-/* line 206, ../scss/conquest.scss */
+/* line 265, ../scss/conquest.scss */
 .div2 > .history {
   display: block;
   position: absolute;
@@ -219,7 +279,7 @@
   margin-top: 25%;
 }
 
-/* line 218, ../scss/conquest.scss */
+/* line 277, ../scss/conquest.scss */
 .div6 > .history {
   display: block;
   position: absolute;
@@ -231,18 +291,18 @@
   margin-top: 25%;
 }
 
-/* line 232, ../scss/conquest.scss */
+/* line 291, ../scss/conquest.scss */
 img {
   width: 100%;
   display: block;
 }
 
-/* line 240, ../scss/conquest.scss */
+/* line 299, ../scss/conquest.scss */
 .sidebar {
   display: none;
 }
 
-/* line 244, ../scss/conquest.scss */
+/* line 303, ../scss/conquest.scss */
 .row > .seasonal, .year-round, .imperials {
   background: url("../conquest-img/bar12.jpg") no-repeat center center;
   background-size: cover;
@@ -253,7 +313,7 @@ img {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 261, ../scss/conquest.scss */
+  /* line 320, ../scss/conquest.scss */
   .button-text {
     position: absolute;
     z-index: 100;
@@ -261,14 +321,14 @@ img {
     margin-top: 170px;
     margin-left: 150px;
   }
-  /* line 267, ../scss/conquest.scss */
+  /* line 326, ../scss/conquest.scss */
   .button-text p {
     color: white;
     font-family: 'Bitter', serif;
     font-size: 1.5em;
   }
 
-  /* line 275, ../scss/conquest.scss */
+  /* line 334, ../scss/conquest.scss */
   .div6 > .findus {
     display: block;
     position: absolute;
@@ -282,14 +342,14 @@ img {
     left: 0;
   }
 
-  /* line 289, ../scss/conquest.scss */
+  /* line 348, ../scss/conquest.scss */
   .beer-row {
     float: right;
     width: 79%;
     height: 650px;
   }
 
-  /* line 296, ../scss/conquest.scss */
+  /* line 355, ../scss/conquest.scss */
   .sidebar img {
     width: 75%;
     text-align: center;
@@ -298,13 +358,13 @@ img {
     margin-top: 50px;
   }
 
-  /* line 304, ../scss/conquest.scss */
+  /* line 363, ../scss/conquest.scss */
   img {
     max-width: none;
     max-height: none;
   }
 
-  /* line 311, ../scss/conquest.scss */
+  /* line 370, ../scss/conquest.scss */
   .div4 img {
     position: absolute;
     top: 0;
@@ -313,37 +373,37 @@ img {
     height: 100%;
   }
 
-  /* line 321, ../scss/conquest.scss */
+  /* line 380, ../scss/conquest.scss */
   .div2:hover .overlay {
     opacity: 0;
   }
 
-  /* line 325, ../scss/conquest.scss */
+  /* line 384, ../scss/conquest.scss */
   .div4:hover .overlay {
     opacity: 0;
   }
 
-  /* line 329, ../scss/conquest.scss */
+  /* line 388, ../scss/conquest.scss */
   .div6:hover .overlay2 {
     opacity: 0;
   }
 
-  /* line 333, ../scss/conquest.scss */
+  /* line 392, ../scss/conquest.scss */
   .div7:hover .overlay2 {
     opacity: 0;
   }
 
-  /* line 337, ../scss/conquest.scss */
+  /* line 396, ../scss/conquest.scss */
   .div8:hover .overlay3 {
     opacity: 0;
   }
 
-  /* line 342, ../scss/conquest.scss */
+  /* line 401, ../scss/conquest.scss */
   .div9:hover .overlay3 {
     opacity: 0;
   }
 
-  /* line 346, ../scss/conquest.scss */
+  /* line 405, ../scss/conquest.scss */
   .overlay3 {
     display: block;
     position: absolute;
@@ -357,7 +417,7 @@ img {
     width: 100%;
   }
 
-  /* line 362, ../scss/conquest.scss */
+  /* line 421, ../scss/conquest.scss */
   .overlay {
     display: block;
     position: inherit;
@@ -370,7 +430,7 @@ img {
     background: url("../conquest-img/patternpng.png") no-repeat center center;
   }
 
-  /* line 374, ../scss/conquest.scss */
+  /* line 433, ../scss/conquest.scss */
   .overlay2 {
     display: block;
     position: absolute;
@@ -383,7 +443,7 @@ img {
     background: url("../conquest-img/patternpng.png") no-repeat center center;
   }
 
-  /* line 391, ../scss/conquest.scss */
+  /* line 450, ../scss/conquest.scss */
   .div2 {
     repeat: no-repeat;
     background-size: cover;
@@ -393,7 +453,7 @@ img {
     overflow: hidden;
   }
 
-  /* line 404, ../scss/conquest.scss */
+  /* line 463, ../scss/conquest.scss */
   .div4 > .hist9 {
     -webkit-filter: grayscale(100%);
     -webkit-transition: .5s ease-in-out;
@@ -414,7 +474,7 @@ img {
     overflow: auto;
   }
 
-  /* line 420, ../scss/conquest.scss */
+  /* line 479, ../scss/conquest.scss */
   .div4:hover > .hist9 {
     -webkit-transform: scale(1.25);
     /* Safari and Chrome */
@@ -433,7 +493,7 @@ img {
     -o-filter: grayscale(0%);
   }
 
-  /* line 435, ../scss/conquest.scss */
+  /* line 494, ../scss/conquest.scss */
   .div2 > .my-knight {
     -webkit-filter: grayscale(100%);
     -webkit-transition: .5s ease-in-out;
@@ -454,7 +514,7 @@ img {
     overflow: auto;
   }
 
-  /* line 451, ../scss/conquest.scss */
+  /* line 510, ../scss/conquest.scss */
   .div2:hover > .my-knight {
     -webkit-transform: scale(1.25);
     /* Safari and Chrome */
@@ -473,7 +533,7 @@ img {
     -o-filter: grayscale(0%);
   }
 
-  /* line 472, ../scss/conquest.scss */
+  /* line 531, ../scss/conquest.scss */
   .div4 {
     background-size: cover;
     margin-top: -14px;
@@ -483,14 +543,14 @@ img {
     overflow: hidden;
   }
 
-  /* line 487, ../scss/conquest.scss */
+  /* line 546, ../scss/conquest.scss */
   .div6 {
     repeat: no-repeat;
     background-size: cover;
     position: absolute;
   }
 
-  /* line 494, ../scss/conquest.scss */
+  /* line 553, ../scss/conquest.scss */
   .div7 {
     repeat: no-repeat;
     background-size: cover;
@@ -499,55 +559,55 @@ img {
     position: relative;
   }
 
-  /* line 503, ../scss/conquest.scss */
+  /* line 562, ../scss/conquest.scss */
   .div6 img {
     width: 100%;
     height: 100%;
   }
 
-  /* line 508, ../scss/conquest.scss */
+  /* line 567, ../scss/conquest.scss */
   .div7 img {
     width: 100%;
     height: 100%;
   }
 
-  /* line 518, ../scss/conquest.scss */
+  /* line 577, ../scss/conquest.scss */
   .div8 {
     float: right;
     width: 100%;
     position: relative;
   }
 
-  /* line 524, ../scss/conquest.scss */
+  /* line 583, ../scss/conquest.scss */
   .div9 {
     float: right;
     width: 79%;
     position: relative;
   }
 
-  /* line 532, ../scss/conquest.scss */
+  /* line 591, ../scss/conquest.scss */
   .div9 img:hover {
     transform: scale 1.5, 1.5;
   }
 
-  /* line 540, ../scss/conquest.scss */
+  /* line 599, ../scss/conquest.scss */
   .div9 img {
     max-height: 300px;
     width: 100%;
   }
 
-  /* line 548, ../scss/conquest.scss */
+  /* line 607, ../scss/conquest.scss */
   .div8 img:hover {
     transform: scale 1.5, 1.5;
   }
 
-  /* line 556, ../scss/conquest.scss */
+  /* line 615, ../scss/conquest.scss */
   .div8 img {
     max-height: 300px;
     width: 100%;
   }
 
-  /* line 562, ../scss/conquest.scss */
+  /* line 621, ../scss/conquest.scss */
   .sidebar {
     display: block;
     background-color: black;
@@ -558,14 +618,14 @@ img {
     max-width: 280px;
     text-align: center;
   }
-  /* line 572, ../scss/conquest.scss */
+  /* line 631, ../scss/conquest.scss */
   .sidebar a {
     color: #ddd7d7;
     font-family: 'Bitter', serif;
     text-transform: uppercase;
     font-size: 1.5em;
   }
-  /* line 581, ../scss/conquest.scss */
+  /* line 640, ../scss/conquest.scss */
   .sidebar ul {
     width: 70%;
     border-top: 1px solid white;
@@ -573,19 +633,19 @@ img {
     text-align: center;
     margin: 0 auto;
   }
-  /* line 590, ../scss/conquest.scss */
+  /* line 649, ../scss/conquest.scss */
   .sidebar li {
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
     list-style-type: none;
   }
-  /* line 597, ../scss/conquest.scss */
+  /* line 656, ../scss/conquest.scss */
   .sidebar nav {
     text-align: center;
   }
 
-  /* line 604, ../scss/conquest.scss */
+  /* line 663, ../scss/conquest.scss */
   .div2 {
     repeat: no-repeat;
     background-size: cover;
@@ -601,13 +661,13 @@ img {
     margin-top: -0px;
   }
 
-  /* line 624, ../scss/conquest.scss */
+  /* line 683, ../scss/conquest.scss */
   .div2 > .my-knight {
     position: absolute;
     height: 100%;
   }
 
-  /* line 631, ../scss/conquest.scss */
+  /* line 690, ../scss/conquest.scss */
   .div3 {
     float: right;
     width: 55%;
@@ -616,7 +676,7 @@ img {
     height: 650px;
   }
 
-  /* line 640, ../scss/conquest.scss */
+  /* line 699, ../scss/conquest.scss */
   .inner-content {
     width: 79%;
     height: 650px;
@@ -626,7 +686,7 @@ img {
     top: 0;
   }
 
-  /* line 650, ../scss/conquest.scss */
+  /* line 709, ../scss/conquest.scss */
   .div4 {
     background-color: tan;
     position: absolute;
@@ -640,7 +700,7 @@ img {
     margin-top: 0px;
   }
 
-  /* line 663, ../scss/conquest.scss */
+  /* line 722, ../scss/conquest.scss */
   .div5 {
     background-color: gray;
     text-align: center;
@@ -652,7 +712,7 @@ img {
     height: 50%;
   }
 
-  /* line 676, ../scss/conquest.scss */
+  /* line 735, ../scss/conquest.scss */
   .div6 {
     float: left;
     width: 50%;
@@ -662,7 +722,7 @@ img {
     margin-top: 0px;
   }
 
-  /* line 686, ../scss/conquest.scss */
+  /* line 745, ../scss/conquest.scss */
   .div7 {
     float: right;
     width: 50%;

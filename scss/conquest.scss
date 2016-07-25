@@ -13,6 +13,65 @@ clear: both;
 /***** SITE STYLES *************/
 /**********************************/
 
+.beer-rack >.beer-talk{
+	width:259px;
+	
+	color:blue;
+	position:absolute;
+	
+	margin-left:30px;
+	bottom:0;
+	z-index:1000;
+}
+
+
+.beer-row-2{
+	width:100%;
+	padding:10%;
+}
+
+#beers-season p{
+	color:white;
+	width:50%;
+	float:right;
+	margin-top:-260px;
+}
+
+#beers-season{
+	
+	width:100%;
+	height:100%;
+	background: url('../conquest-img/dark-knight.jpeg') no-repeat center center;
+	padding-bottom:50%;
+	background-size:cover;
+	margin-top:-30px;
+	background-color:black;
+	height:2000px;
+
+}
+.beer-rack img{
+	position:relative;
+	  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+          width: 25%;
+        
+	
+	float:left;
+}
+.beer-rack p{
+	 position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: blue;
+  position:relative;
+  z-index: 100;
+
+}
 
 .beer-1 a{
 	position:absolute;
