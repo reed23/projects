@@ -1,65 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sandbox: overlay1 - Animsition</title>
-  <link href="sandbox.css" rel="stylesheet">
-  <link href="../dist/css/animsition.min.css" rel="stylesheet">
-  <style media="screen">
-    .bg-init,
-    .animsition-overlay-slide {
-      background-color: black;
-    }
-  </style>
-</head>
-<body class="bg-init">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Conquest Brewery</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/conquest.css">
+    <link rel="stylesheet" href="css/bootstrap-conquest.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+    <script src="js/navi-1.9.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/conquest.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class ="holdme clearfix">
+      <div class ="sidebar">
+        <img src="conquest-img/logo2.png">
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href=".row">Home</a></li>
+          <li><a data-toggle="tab" href="#beers">Beers</a></li>
+          <li><a data-toggle="tab" href="#menu2">About Us</a></li>
+          <li><a data-toggle="tab" href="#menu3">Find Us</a></li>
+        </ul>
+        
+        
+        </div> <!--div1 -->
+        <div class="tab-content">
+          <div class = " tab-pane fade in active row inner-content clearfix">
+            <div class =" row-sm-height div2">
+              <img class =" my-knight img-responsive" img src="conquest-img/midknight2.png">
+              <span class="overlay"></span>
+              <img class ="hist9"img src="conquest-img/history9.png">
+              </div> <!--end of div2 -->
+              <div class =" row-sm-height div3">
+                
+                <div class ="div4">
+                  <img class ="img-responsive beers-pic" img src="conquest-img/conquer-night4.png">
+                  <img class ="hist9"img src="conquest-img/conquer-night.png">
+                  <div class ="button-text">
+                    <p>Follow us on social media</p>
+                    <button>Follow Us </button>
+                  </div>
+                  
+                  
+                  <span class="overlay"></span>
+                  </div> <!--end of div 4-->
+                  <div class ="div5">
+                    <div class ="div6">
+                      <img class ="img-responsive" img src="conquest-img/tastingroom.jpg">
+                      <img class ="img-responsive findus" img src="conquest-img/allbeers.png">
+                      <span class="overlay2"></span>
+                      </div> <!--end of div 6 -->
+                      <div class ="div7">
+                        <span class="overlay2"></span>
+                        <img class ="img-responsive" img src="conquest-img/pourbeer.jpg">
+                        <img class ="img-responsive taste " img src="conquest-img/tastingroom.png">
+                        
+                        </div> <!--end of div 7-->
+                        </div> <!--end of div5 -->
+                        
+                        
+                        </div> <!--end of div3 -->
+                        
+                        </div> <!--end of inner -content -->
+                        
+                        <!-- CONTENT FOR WEBSITE -->
+                        <div id="beers" class=" clearfix tab-pane fade">
+                          <div class ="beer-1">
+                            <img class ="img-responsive" img src="conquest-img/ice-test.jpg">
+                            <ul class="nav nav-tabs">
+                              <li><a data-toggle="tab" href="#beers-season">Year Round</a></li>
+                            </ul>
+                          </div>
+                          <div class ="beer-2">
+                            <img class ="img-responsive" img src="conquest-img/pourbeer.jpg">
+                            <ul class="nav nav-tabs">
+                              <li><a data-toggle="tab" href="#beers-year">Beers</a></li>
+                            </ul>
+                          </div>
+                          <div class ="beer-3">
+                            <img class ="img-responsive" img src="conquest-img/pourbeer.jpg">
+                            <ul class="nav nav-tabs">
+                              <li><a data-toggle="tab" href="#beers-imperials">Beers</a></li>
+                            </ul>
+                          </div>
+                          </div> <!--end of beers -->
+                          <div id="menu2" class="tab-pane fade">
+                            <h3>Menu 2</h3>
+                            <p>Some content in menu 2.</p>
+                          </div>
+                          <div id= "beers-season" class=" tab-pane fade">
+                            
+                            <h1>Seasonal Beers 2</h1>
+                            <div class ="beer-row-2 clearfix">
+                              <div class="beer-rack clearfix" ><img src="conquest-img/artimis.jpg"><h3 class="beer-talk">Sarah, Dec '02</h3> </div>
 
-  <div class="animsition-overlay">
-
-    <div class="item bg-purple">
-      <h1>Animsition: overlay1</h1>
-    </div>
-
-   
-
-    <h2>Overlays</h2>
-    <ol>
-      <li><a class="animsition-link" href="overlay1.html" data-animsition-out-class="overlay-slide-out-left">Overlay1</a></li>
-      <li><a class="animsition-link" href="overlay2.html" data-animsition-out-class="overlay-slide-out-right">Overlay2</a></li>
-    </ol>
-
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-  <script src="../dist/js/animsition.min.js" charset="utf-8"></script>
-  <script>
-  $(document).ready(function() {
-    $('.animsition-overlay').animsition({
-      inClass: 'overlay-slide-in-left',
-      outClass: 'overlay-slide-out-right',
-      overlay : true,
-      overlayClass : 'animsition-overlay-slide',
-      overlayParentElement : 'body'
-    })
-    .one('animsition.inStart',function(){
-
-      $('body').removeClass('bg-init');
-
-      $(this)
-        .find('.item')
-        .append('<h2 class="target">Callback: Start</h2>');
-
-      console.log('event -> inStart');
-    })
-    .one('animsition.inEnd',function(){
-      $('.target', this).html('Callback: End');
-
-      console.log('event -> inEnd');
-    });
-  });
-  </script>
-
-</body>
-</html>
+                              <p>Artemis is a goddess. The goddess of the forest and the hunt, ruler of the stormy mountains. The daughter of Zeus and twin of Apollo. From her noble beginnings she ascended to become one of the most revered figures of Greece, and her temple is one of the wonders of the world.
+                              With a crystal clear blonde body and fluffy white head, her effervescence emanates as she quenches your thirst and caresses your tongue with mild notes of Belma and Zythos and a delicate malt profile. Her warrior spirit can be experienced in the mild bitterness that is perfectly balanced with the refreshing, honey-like sweetness. Experience her for yourself. You will know the purity of the noble-born.</p>
+                            </div>
+                            <div class ="beer-row-2 clearfix">
+                              <a class="beer-rack clearfix" a href=""><img src="conquest-img/medusa.jpg"></a>
+                              <p>Artemis is a goddess. The goddess of the forest and the hunt, ruler of the stormy mountains. The daughter of Zeus and twin of Apollo. From her noble beginnings she ascended to become one of the most revered figures of Greece, and her temple is one of the wonders of the world.
+                              With a crystal clear blonde body and fluffy white head, her effervescence emanates as she quenches your thirst and caresses your tongue with mild notes of Belma and Zythos and a delicate malt profile. Her warrior spirit can be experienced in the mild bitterness that is perfectly balanced with the refreshing, honey-like sweetness. Experience her for yourself. You will know the purity of the noble-born.</p>
+                            </div>
+                            <div class ="beer-row-2 clearfix">
+                              <a class="beer-rack clearfix" a href=""><img src="conquest-img/dark-beer.jpg"></a>
+                              <p>Artemis is a goddess. The goddess of the forest and the hunt, ruler of the stormy mountains. The daughter of Zeus and twin of Apollo. From her noble beginnings she ascended to become one of the most revered figures of Greece, and her temple is one of the wonders of the world.
+                              With a crystal clear blonde body and fluffy white head, her effervescence emanates as she quenches your thirst and caresses your tongue with mild notes of Belma and Zythos and a delicate malt profile. Her warrior spirit can be experienced in the mild bitterness that is perfectly balanced with the refreshing, honey-like sweetness. Experience her for yourself. You will know the purity of the noble-born.</p>
+                            </div>
+                          </div>
+                          <div id= "beers-year" class="tab-pane fade">
+                            <p>Year Round Selection 2</p>
+                          </div>
+                          <div id= "beers-imperials" class="tab-pane fade">
+                            <p>Imperials</p>
+                          </div>
+                          <div id="menu3" class="tab-pane fade">
+                            <h3>Menu 3</h3>
+                            <p>Some content in menu 2.</p>
+                          </div>
+                          </div> <!--end of content container for holding tabs -->
+                          </div> <!--end of holdme -->
+                          
+                          <script src="node_modules/jquery/dist/jquery.min.js"></script>
+                          
+                        </body>
+                      </html>
