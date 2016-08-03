@@ -11,11 +11,15 @@
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="css/conquest.css">
     <link rel="stylesheet" href="css/bootstrap-conquest.css">
+    
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/comparison.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
     <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
     <script src="js/navi-1.9.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/conquest.css">
+ 
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </head>
   <body>
@@ -111,26 +115,78 @@
                             <h3>Menu 2</h3>
                             <p>Some content in menu 2.</p>
                           </div>
-                          <div id= "beers-season" class=" tab-pane fade">
-                            
-                            <h1>Seasonal Beers 2</h1>
-                            <div class ="beer-row-2 clearfix">
-                              <div class="beer-rack clearfix" ><img src="conquest-img/artimis.jpg"><h3 class="beer-talk">Sarah, Dec '02</h3> </div>
+                      <div id= "beers-season" class=" tab-pane fade">
+                        
+                           <a id="compare" class="compare-products" href="#animatedModal">Compare Products</a>
+                              <div class="container">
+                              <div class="product" data-id="1" data-title="Canadian" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit" data-price="£4" data-alcohol="4% ABV" data-country="Canada" data-ingredients="Water, Wheat, Sugar">
+                              <div>+</div>
+                               
 
-                              <p>Artemis is a goddess. The goddess of the forest and the hunt, ruler of the stormy mountains. The daughter of Zeus and twin of Apollo. From her noble beginnings she ascended to become one of the most revered figures of Greece, and her temple is one of the wonders of the world.
-                              With a crystal clear blonde body and fluffy white head, her effervescence emanates as she quenches your thirst and caresses your tongue with mild notes of Belma and Zythos and a delicate malt profile. Her warrior spirit can be experienced in the mild bitterness that is perfectly balanced with the refreshing, honey-like sweetness. Experience her for yourself. You will know the purity of the noble-born.</p>
-                            </div>
-                            <div class ="beer-row-2 clearfix">
-                              <a class="beer-rack clearfix" a href=""><img src="conquest-img/medusa.jpg"></a>
-                              <p>Artemis is a goddess. The goddess of the forest and the hunt, ruler of the stormy mountains. The daughter of Zeus and twin of Apollo. From her noble beginnings she ascended to become one of the most revered figures of Greece, and her temple is one of the wonders of the world.
-                              With a crystal clear blonde body and fluffy white head, her effervescence emanates as she quenches your thirst and caresses your tongue with mild notes of Belma and Zythos and a delicate malt profile. Her warrior spirit can be experienced in the mild bitterness that is perfectly balanced with the refreshing, honey-like sweetness. Experience her for yourself. You will know the purity of the noble-born.</p>
-                            </div>
-                            <div class ="beer-row-2 clearfix">
-                              <a class="beer-rack clearfix" a href=""><img src="conquest-img/dark-beer.jpg"></a>
-                              <p>Artemis is a goddess. The goddess of the forest and the hunt, ruler of the stormy mountains. The daughter of Zeus and twin of Apollo. From her noble beginnings she ascended to become one of the most revered figures of Greece, and her temple is one of the wonders of the world.
-                              With a crystal clear blonde body and fluffy white head, her effervescence emanates as she quenches your thirst and caresses your tongue with mild notes of Belma and Zythos and a delicate malt profile. Her warrior spirit can be experienced in the mild bitterness that is perfectly balanced with the refreshing, honey-like sweetness. Experience her for yourself. You will know the purity of the noble-born.</p>
-                            </div>
-                          </div>
+                              <button></button>
+                              <img class="product-image" src="conquest-img/beerbottle.jpg"  alt="">
+                              <h3 class="text-center">Canadian</h3>
+                              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                              <p class="price">£4</p>
+                              <a class="add-to-cart" href="#">Add To Cart</a>
+
+                              </div>
+                              <div class="product" data-id="2" data-title="Bass" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit" data-price="£2.50" data-alcohol="5.5% ABV" data-country="USA" data-ingredients="Water, Hops, Sugar">
+                              <div>+</div>
+                               
+
+                              <button></button>
+                              <img class="product-image" src="conquest-img/beerbottle.jpg" alt="">
+                              <h3 class="text-center">Bass</h3>
+                              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                              <p class="price">£2.50</p>
+                              <a class="add-to-cart" href="#">Add To Cart</a>
+
+                              </div>
+                              <div class="product" data-id="3" data-title="HooDoo" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit" data-price="£5" data-alcohol="7.5% ABV" data-country="USA" data-ingredients="Water, Wheat, Sugar">
+                              <div>+</div>
+                               
+
+                              <button></button>
+                              <img class="product-image" src="conquest-img/beerbottle.jpg"  alt="">
+                              <h3 class="text-center">HooDoo</h3>
+                              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                              <p class="price">£5</p>
+                              <a class="add-to-cart" href="#">Add To Cart</a>
+
+                              </div>
+                              <div class="product" data-id="4" data-title="Blue Lime" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit" data-price="£3.24" data-alcohol="3.5% ABV" data-country="Germany" data-ingredients="Water, Hops, Sugar">
+                              <div>+</div>
+                               
+
+                              <button></button>
+                              <img class="product-image" src="conquest-img/beerbottle.jpg"  alt="">
+                              <h3 class="text-center">Blue Lime</h3>
+                              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                              <p class="price">£3.24</p>
+                              <a class="add-to-cart" href="#">Add To Cart</a>
+
+                              </div>
+                              <div class="clearfix"></div>
+                              </div>
+
+                              <div id="animatedModal"></div>
+                              <div id="btn-close-modal" class="close-animatedModal">CLOSE</div>
+                              <div class="modal-content">
+                                <p>Reed Reed Reed</p>
+                              <div class="modal-inner">
+                              <div class="no-products">Select some products to compare first</div>
+                              <div class="modal-products"></div>
+                              </div>
+                              </div>
+                          </div> <!--end of beer-seasaon -->
+
+
+
+
+
+
+
                           <div id= "beers-year" class="tab-pane fade">
                             <p>Year Round Selection 2</p>
                           </div>
@@ -146,11 +202,34 @@
                           
                           <script src="node_modules/jquery/dist/jquery.min.js"></script>
                           <script src="js/bigSlide.js"></script>
-                                                        <script>
+                           <script>
                                   $(document).ready(function() {
                                       $('.menu-link').bigSlide();
                                   });
                               </script>
+
+                            <script type="text/javascript" src="js/jquery.comparison.js"></script>
+                           <script type="text/javascript" src="js/animatedModal.min.js"></script>
+                                <script>
+                                
+                                  $("#compare").animatedModal({
+                                  
+                                      animatedIn:'lightSpeedIn',
+                                      animatedOut:'bounceOutDown',
+                                      color:'#3498db',
+                                  
+                                  });
+                                  
+                                  $(document).ready(function() {
+                                  
+                                     $('.product').compare({      
+                                      compareButton: '.compare-products'
+                                    }); 
+                                    
+                                  
+                                  });
+                                
+                                </script>
                           
                         </body>
                       </html>

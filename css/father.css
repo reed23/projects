@@ -16,22 +16,28 @@
 
 /***** SITE STYLES *************/
 /**********************************/
-/* line 17, ../scss/father.scss */
-.top-left > .overlay-1 a {
-  color: black;
-  text-decoration: none;
-  position: absolute;
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 100px;
-  width: 50%;
-  background-color: white;
-  max-width: 100px;
-  font-family: 'Lato',sans-serif;
+/* line 18, ../scss/father.scss */
+.overlay-1 p {
+  display: none;
 }
 
-/* line 31, ../scss/father.scss */
+/* line 27, ../scss/father.scss */
+.top-left > .overlay-1 a {
+  text-decoration: none;
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  margin-top: 100px;
+  font-size: 18px;
+  margin-left: -110px;
+}
+
+/* line 44, ../scss/father.scss */
 .top-right > .overlay-1 a {
   color: black;
   text-decoration: none;
@@ -46,7 +52,29 @@
   font-family: 'Lato',sans-serif;
 }
 
-/* line 45, ../scss/father.scss */
+/* line 57, ../scss/father.scss */
+.top-left > .overlay-1 a:hover {
+  color: black !important;
+}
+
+/* line 64, ../scss/father.scss */
+.top-left-second > .overlay-1 a {
+  display: none;
+}
+
+/* line 68, ../scss/father.scss */
+.overlay-1 > .button-box {
+  color: black;
+  background-color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 83, ../scss/father.scss */
 .top-left-second:hover > .overlay-1 a {
   color: black;
   text-decoration: none;
@@ -60,65 +88,62 @@
   font-family: 'Lato',sans-serif;
 }
 
-/* line 58, ../scss/father.scss */
-.top-left-second > .overlay-1 a {
-  display: none;
-}
-
-/* line 62, ../scss/father.scss */
-.overlay-1 > .button-box {
+/* line 98, ../scss/father.scss */
+.top-left-second:hover > .overlay-1 a {
   color: black;
-  background-color: black;
   text-decoration: none;
+  position: absolute;
   display: block;
   text-align: center;
-  width: 25%;
-  text-align: center;
   margin: 0 auto;
+  width: 50%;
+  background-color: white;
+  max-width: 100px;
+  font-family: 'Lato',sans-serif;
 }
 
-/* line 79, ../scss/father.scss */
+/* line 112, ../scss/father.scss */
 .top-left-second {
   position: relative;
 }
 
-/* line 83, ../scss/father.scss */
+/* line 116, ../scss/father.scss */
 .top-right-second {
   position: relative;
 }
 
-/* line 88, ../scss/father.scss */
+/* line 121, ../scss/father.scss */
 .foot1 {
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 93, ../scss/father.scss */
+/* line 126, ../scss/father.scss */
 .row > .end {
   border-right: none;
 }
 
-/* line 98, ../scss/father.scss */
+/* line 131, ../scss/father.scss */
 .overlay-2 {
   position: absolute;
   bottom: 0;
 }
-/* line 102, ../scss/father.scss */
+/* line 135, ../scss/father.scss */
 .overlay-2 p {
   color: white;
 }
 
-/* line 107, ../scss/father.scss */
+/* line 140, ../scss/father.scss */
 .overlay-2 {
   display: none;
 }
 
-/* line 111, ../scss/father.scss */
+/* line 144, ../scss/father.scss */
 .overlay-1 p {
   display: none;
 }
 
-/* line 116, ../scss/father.scss */
+/* line 149, ../scss/father.scss */
 .top-right-second:hover > .overlay-1 > p {
   display: block;
   background-color: #E74C3C;
@@ -127,7 +152,7 @@
   margin: 0 auto;
 }
 
-/* line 130, ../scss/father.scss */
+/* line 163, ../scss/father.scss */
 .top-right-second:hover > .overlay-1 {
   display: block;
   background-color: #E74C3C;
@@ -142,7 +167,7 @@
   height: 100%;
 }
 
-/* line 150, ../scss/father.scss */
+/* line 182, ../scss/father.scss */
 .top-left-second:hover > .overlay-1 > p {
   display: block;
   background-color: #E74C3C;
@@ -151,7 +176,7 @@
   text-align: center;
 }
 
-/* line 163, ../scss/father.scss */
+/* line 195, ../scss/father.scss */
 .top-left-second:hover > .overlay-1 {
   display: block;
   background-color: #E74C3C;
@@ -166,7 +191,7 @@
   height: 100%;
 }
 
-/* line 182, ../scss/father.scss */
+/* line 213, ../scss/father.scss */
 .top-left:hover > .overlay-1 p {
   display: block;
   background-color: #E74C3C;
@@ -176,13 +201,13 @@
   color: white;
 }
 
-/* line 196, ../scss/father.scss */
+/* line 227, ../scss/father.scss */
 .top-left-second:hover h1 {
   margin-top: 15%;
   font-size: 2.0em;
 }
 
-/* line 201, ../scss/father.scss */
+/* line 232, ../scss/father.scss */
 .top-left:hover > .overlay-1 {
   display: block;
   background-color: #E74C3C;
@@ -196,13 +221,13 @@
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   height: 100%;
 }
-/* line 215, ../scss/father.scss */
+/* line 246, ../scss/father.scss */
 .top-left:hover > .overlay-1 h1 {
   margin-top: 15%;
   font-size: 2.0em;
 }
 
-/* line 222, ../scss/father.scss */
+/* line 254, ../scss/father.scss */
 .top-right:hover > .overlay-1 > p {
   display: block;
   background-color: #E74C3C;
@@ -211,7 +236,7 @@
   margin: 0 auto;
 }
 
-/* line 235, ../scss/father.scss */
+/* line 267, ../scss/father.scss */
 .top-right:hover > .overlay-1 {
   display: block;
   background-color: #E74C3C;
@@ -225,12 +250,12 @@
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   height: 100%;
 }
-/* line 249, ../scss/father.scss */
+/* line 281, ../scss/father.scss */
 .top-right:hover > .overlay-1 h1 {
   margin-top: 15%;
 }
 
-/* line 261, ../scss/father.scss */
+/* line 293, ../scss/father.scss */
 .overlay-1 {
   position: absolute;
   background-color: #E74C3C;
@@ -241,7 +266,7 @@
   height: 50px;
   transition: height 1s linear;
 }
-/* line 271, ../scss/father.scss */
+/* line 303, ../scss/father.scss */
 .overlay-1 h1 {
   text-align: center;
   width: 100%;
@@ -250,7 +275,7 @@
   text-transform: uppercase;
   font-size: 2.0em;
 }
-/* line 281, ../scss/father.scss */
+/* line 313, ../scss/father.scss */
 .overlay-1 p {
   font-family: 'Lato',sans-serif;
   font-size: 1.7em;
@@ -258,18 +283,18 @@
   text-align: center;
 }
 
-/* line 297, ../scss/father.scss */
+/* line 329, ../scss/father.scss */
 .form-group {
   width: 100%;
 }
 
-/* line 301, ../scss/father.scss */
+/* line 333, ../scss/father.scss */
 .form-control {
   width: 100%;
   margin-bottom: 25px;
 }
 
-/* line 306, ../scss/father.scss */
+/* line 338, ../scss/father.scss */
 .radio label,
 .checkbox label {
   min-height: 20px;
@@ -281,28 +306,28 @@
   margin-bottom: 10px;
 }
 
-/* line 317, ../scss/father.scss */
+/* line 349, ../scss/father.scss */
 .second-text {
   float: right;
   width: 45%;
 }
 
-/* line 323, ../scss/father.scss */
+/* line 355, ../scss/father.scss */
 .special {
   width: 90%;
   margin-top: 50px;
 }
 
-/* line 329, ../scss/father.scss */
+/* line 361, ../scss/father.scss */
 .first-text {
   width: 45%;
   float: left;
 }
-/* line 335, ../scss/father.scss */
+/* line 367, ../scss/father.scss */
 .first-text ul {
   padding: 0px;
 }
-/* line 340, ../scss/father.scss */
+/* line 372, ../scss/father.scss */
 .first-text li {
   margin-bottom: 10px;
   color: white;
@@ -312,33 +337,33 @@
   text-align: center;
 }
 
-/* line 351, ../scss/father.scss */
+/* line 383, ../scss/father.scss */
 .faq {
   font-size: 1.7em;
   color: white;
   font-family: 'Lato',sans-serif;
 }
-/* line 356, ../scss/father.scss */
+/* line 388, ../scss/father.scss */
 .faq li {
   list-style-type: none;
   margin-bottom: 10px;
   text-align: center;
 }
 
-/* line 364, ../scss/father.scss */
+/* line 396, ../scss/father.scss */
 .special {
   width: 90%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 370, ../scss/father.scss */
+/* line 402, ../scss/father.scss */
 .special p {
   color: white;
   font-size: 1.7em;
   text-align: center;
   font-family: 'Montserrat',sans-serif;
 }
-/* line 379, ../scss/father.scss */
+/* line 411, ../scss/father.scss */
 .special button {
   width: 50%;
   margin: 0 auto;
@@ -354,13 +379,13 @@
   box-shadow: 0px 0px 25px #000;
 }
 
-/* line 397, ../scss/father.scss */
+/* line 429, ../scss/father.scss */
 .bottom {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 403, ../scss/father.scss */
+/* line 435, ../scss/father.scss */
 .bottom p {
   text-align: center;
   font-size: 1.5em;
@@ -369,14 +394,14 @@
   margin: 0 auto;
 }
 
-/* line 413, ../scss/father.scss */
+/* line 445, ../scss/father.scss */
 .footer {
   background-color: #2980B9;
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
-/* line 423, ../scss/father.scss */
+/* line 455, ../scss/father.scss */
 .find {
   background-color: #E74C3C;
   padding: 5px 0px;
@@ -387,24 +412,24 @@
   overflow: hidden;
   text-align: center;
 }
-/* line 433, ../scss/father.scss */
+/* line 465, ../scss/father.scss */
 .find h1 {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 3.0em;
 }
-/* line 438, ../scss/father.scss */
+/* line 470, ../scss/father.scss */
 .find input {
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 446, ../scss/father.scss */
+/* line 478, ../scss/father.scss */
 .find-program {
   width: 100%;
   text-align: center;
 }
-/* line 449, ../scss/father.scss */
+/* line 481, ../scss/father.scss */
 .find-program select {
   width: 70%;
   margin: 0 auto;
@@ -412,7 +437,7 @@
   font-size: 4.0em;
   text-align: center;
 }
-/* line 456, ../scss/father.scss */
+/* line 488, ../scss/father.scss */
 .find-program option {
   width: 70%;
   margin: 0 auto;
@@ -421,7 +446,7 @@
   text-align: center;
 }
 
-/* line 467, ../scss/father.scss */
+/* line 499, ../scss/father.scss */
 .top-left p {
   position: absolute;
   text-align: center;
@@ -430,7 +455,7 @@
   background-color: white;
 }
 
-/* line 474, ../scss/father.scss */
+/* line 506, ../scss/father.scss */
 .top-right p {
   position: absolute;
   text-align: center;
@@ -439,14 +464,14 @@
   background-color: white;
 }
 
-/* line 483, ../scss/father.scss */
+/* line 515, ../scss/father.scss */
 .program-text {
   background-color: #ECF0F1;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 490, ../scss/father.scss */
+/* line 522, ../scss/father.scss */
 .program-text h2 {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -454,39 +479,39 @@
   color: #3498DB;
 }
 
-/* line 500, ../scss/father.scss */
+/* line 532, ../scss/father.scss */
 .row {
   text-align: center;
   margin-top: 25px;
 }
-/* line 504, ../scss/father.scss */
+/* line 536, ../scss/father.scss */
 .row h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5em;
 }
-/* line 511, ../scss/father.scss */
+/* line 543, ../scss/father.scss */
 .row div {
   border-right: none;
 }
-/* line 514, ../scss/father.scss */
+/* line 546, ../scss/father.scss */
 .row p {
   font-family: 'Lato', sans-serif;
   font-size: 1.5em;
 }
-/* line 520, ../scss/father.scss */
+/* line 552, ../scss/father.scss */
 .row li {
   font-family: 'Lato', sans-serif;
   font-size: 1.5em;
 }
 
-/* line 526, ../scss/father.scss */
+/* line 558, ../scss/father.scss */
 .wrapper {
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 531, ../scss/father.scss */
+/* line 563, ../scss/father.scss */
 .top-left {
   text-align: center;
   background: url(../img/father1.jpg) no-repeat 0 0;
@@ -497,7 +522,7 @@
   position: relative;
 }
 
-/* line 542, ../scss/father.scss */
+/* line 574, ../scss/father.scss */
 .top-right {
   background: url(../img/father3.jpg) no-repeat 0 0;
   padding-bottom: 30%;
@@ -506,7 +531,7 @@
   position: relative;
 }
 
-/* line 551, ../scss/father.scss */
+/* line 583, ../scss/father.scss */
 .top-left-second {
   background: url(../img/father5.jpg) no-repeat 0 0;
   padding-bottom: 30%;
@@ -515,7 +540,7 @@
   margin-top: 15px;
 }
 
-/* line 560, ../scss/father.scss */
+/* line 592, ../scss/father.scss */
 .top-right-second {
   background: url(../img/father-4.jpg) no-repeat 0 0;
   padding-bottom: 30%;
@@ -523,31 +548,31 @@
   margin-bottom: 15px;
 }
 
-/* line 573, ../scss/father.scss */
+/* line 605, ../scss/father.scss */
 .logo {
   width: 25%;
   max-width: 100px;
 }
 
-/* line 578, ../scss/father.scss */
+/* line 610, ../scss/father.scss */
 .hide-me li:hover, .hide-me li:focus {
   background-color: white;
   color: blue;
   width: 100%;
 }
 
-/* line 585, ../scss/father.scss */
+/* line 617, ../scss/father.scss */
 .hide-me {
   padding-top: 50px;
   width: 100%;
 }
-/* line 588, ../scss/father.scss */
+/* line 620, ../scss/father.scss */
 .hide-me li {
   list-style-type: none;
   text-align: center;
   width: 100%;
 }
-/* line 593, ../scss/father.scss */
+/* line 625, ../scss/father.scss */
 .hide-me a {
   color: white;
   text-decoration: none;
@@ -555,17 +580,17 @@
   font-size: 1.5em;
 }
 
-/* line 602, ../scss/father.scss */
+/* line 634, ../scss/father.scss */
 .desktop-nav {
   background-color: #2980B9;
   padding-top: 20px;
 }
-/* line 606, ../scss/father.scss */
+/* line 638, ../scss/father.scss */
 .desktop-nav ul {
   float: right;
 }
 
-/* line 613, ../scss/father.scss */
+/* line 645, ../scss/father.scss */
 .toggle-me {
   float: right;
   width: 25%;
@@ -575,12 +600,12 @@
   margin-top: 10px;
 }
 
-/* line 623, ../scss/father.scss */
+/* line 655, ../scss/father.scss */
 .desk {
   display: none;
 }
 
-/* line 626, ../scss/father.scss */
+/* line 658, ../scss/father.scss */
 .main-pic {
   position: relative;
   text-align: center;
@@ -592,7 +617,7 @@
   opacity: 2.5;
   margin-top: -0px;
 }
-/* line 637, ../scss/father.scss */
+/* line 669, ../scss/father.scss */
 .main-pic h1 {
   text-align: center;
   display: block;
@@ -603,14 +628,14 @@
   text-shadow: 0px 0px 10px #000;
   -webkit-font-smoothing: antialiased;
 }
-/* line 647, ../scss/father.scss */
+/* line 679, ../scss/father.scss */
 .main-pic p {
   color: white;
   font-size: 1.7em;
   font-family: 'Lato', sans-serif;
   text-shadow: 0px 0px 10px #000;
 }
-/* line 653, ../scss/father.scss */
+/* line 685, ../scss/father.scss */
 .main-pic button {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -624,22 +649,19 @@
   box-shadow: 0px 0px 25px #000;
 }
 
-/* line 667, ../scss/father.scss */
+/* line 699, ../scss/father.scss */
 .left {
   background: url(../img/mainpic2.jpg) no-repeat 0 0;
   padding-bottom: 20%;
 }
 
-@media screen and (min-width: 600px) {
-  /*end of 600 */
-}
 @media screen and (min-width: 800px) {
-  /* line 681, ../scss/father.scss */
+  /* line 708, ../scss/father.scss */
   .overlay-2 a {
     color: white;
   }
 
-  /* line 686, ../scss/father.scss */
+  /* line 713, ../scss/father.scss */
   .top-right:hover > .overlay-1 {
     display: block;
     background-color: #E74C3C;
@@ -654,26 +676,26 @@
     height: 100%;
   }
 
-  /* line 711, ../scss/father.scss */
+  /* line 738, ../scss/father.scss */
   .foot1 {
     width: 63.6%;
     float: left;
     margin-top: 20px;
   }
 
-  /* line 716, ../scss/father.scss */
+  /* line 743, ../scss/father.scss */
   .footer > .special {
     float: right;
     width: 33%;
     margin-right: 25px;
   }
 
-  /* line 722, ../scss/father.scss */
+  /* line 749, ../scss/father.scss */
   .form-control {
     width: 100%;
   }
 
-  /* line 727, ../scss/father.scss */
+  /* line 754, ../scss/father.scss */
   .footer {
     background-color: #2980B9;
     padding-top: 50px;
@@ -682,58 +704,58 @@
     margin: 0 auto;
   }
 
-  /* line 738, ../scss/father.scss */
+  /* line 765, ../scss/father.scss */
   .first-text {
     margin-top: 15px;
     margin-bottom: 0px;
   }
 
-  /* line 743, ../scss/father.scss */
+  /* line 770, ../scss/father.scss */
   .special {
     width: 33.3%;
   }
 
-  /* line 747, ../scss/father.scss */
+  /* line 774, ../scss/father.scss */
   .second-text {
     width: 33.3%;
   }
 
-  /* line 753, ../scss/father.scss */
+  /* line 780, ../scss/father.scss */
   .desk {
     display: inline-block;
   }
 
-  /* line 757, ../scss/father.scss */
+  /* line 784, ../scss/father.scss */
   .hide-me {
     display: none;
   }
 
-  /* line 762, ../scss/father.scss */
+  /* line 789, ../scss/father.scss */
   .row {
     text-align: center;
     margin-top: 25px;
     background-color: white;
   }
-  /* line 767, ../scss/father.scss */
+  /* line 794, ../scss/father.scss */
   .row h2 {
     text-align: center;
     font-size: 2.5em;
   }
-  /* line 772, ../scss/father.scss */
+  /* line 799, ../scss/father.scss */
   .row div {
     border-right: 1px solid black;
   }
-  /* line 775, ../scss/father.scss */
+  /* line 802, ../scss/father.scss */
   .row p {
     font-size: 1.5em;
   }
 
-  /* line 782, ../scss/father.scss */
+  /* line 809, ../scss/father.scss */
   .toggle-me {
     display: none;
   }
 
-  /* line 786, ../scss/father.scss */
+  /* line 813, ../scss/father.scss */
   .top-left {
     width: 50%;
     float: left;
@@ -741,14 +763,14 @@
     margin-top: 0px;
   }
 
-  /* line 793, ../scss/father.scss */
+  /* line 820, ../scss/father.scss */
   .top-right {
     width: 50%;
     float: right;
     margin-bottom: 0px;
   }
 
-  /* line 799, ../scss/father.scss */
+  /* line 826, ../scss/father.scss */
   .top-left-second {
     width: 50%;
     float: left;
@@ -756,7 +778,7 @@
     margin-top: 0px;
   }
 
-  /* line 806, ../scss/father.scss */
+  /* line 833, ../scss/father.scss */
   .top-right-second {
     width: 50%;
     float: right;
@@ -764,32 +786,32 @@
     position: relative;
   }
 
-  /* line 817, ../scss/father.scss */
+  /* line 844, ../scss/father.scss */
   .head-wrap {
     display: block;
   }
 
-  /* line 823, ../scss/father.scss */
+  /* line 850, ../scss/father.scss */
   body {
     background: url(../img/pattern1.jpg) no-repeat 0 0;
     background-size: cover;
   }
 
-  /* line 830, ../scss/father.scss */
+  /* line 857, ../scss/father.scss */
   .text-box {
     width: 42%;
     float: right;
     margin-top: 50px;
   }
 
-  /* line 835, ../scss/father.scss */
+  /* line 862, ../scss/father.scss */
   .wrapper {
     width: 70%;
     margin: 0 auto;
     background-color: white;
   }
 
-  /* line 842, ../scss/father.scss */
+  /* line 869, ../scss/father.scss */
   .main-pic {
     position: relative;
     text-align: center;
@@ -802,7 +824,7 @@
     width: 70%;
     margin: 0 auto;
   }
-  /* line 854, ../scss/father.scss */
+  /* line 881, ../scss/father.scss */
   .main-pic h1 {
     text-align: center;
     display: block;
@@ -814,19 +836,19 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  /* line 866, ../scss/father.scss */
+  /* line 893, ../scss/father.scss */
   .top-wrap {
     width: 90%;
     margin: 0 auto;
   }
 
-  /* line 871, ../scss/father.scss */
+  /* line 898, ../scss/father.scss */
   .bottom {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  /* line 877, ../scss/father.scss */
+  /* line 904, ../scss/father.scss */
   .bottom p {
     text-align: center;
     font-size: 1.5em;
@@ -835,25 +857,25 @@
     margin: 0 auto;
   }
 
-  /* line 889, ../scss/father.scss */
+  /* line 916, ../scss/father.scss */
   .desktop-nav {
     top: 0px;
     padding-top: 20px;
     width: 70%;
     margin: 0 auto;
   }
-  /* line 895, ../scss/father.scss */
+  /* line 922, ../scss/father.scss */
   .desktop-nav ul {
     display: block;
     margin-top: -40px;
   }
-  /* line 900, ../scss/father.scss */
+  /* line 927, ../scss/father.scss */
   .desktop-nav li {
     list-style-type: none;
     display: inline-block;
     margin-left: 15px;
   }
-  /* line 906, ../scss/father.scss */
+  /* line 933, ../scss/father.scss */
   .desktop-nav a {
     color: white;
     text-decoration: none;
