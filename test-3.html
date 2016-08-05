@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/bootstrap-conquest.css">
     <link rel="stylesheet" href="css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
     <script src="js/navi-1.9.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="css/conquest.css">
@@ -20,9 +22,27 @@
   </head>
   <body>
     <div class ="holdme clearfix">
+      <a href="#menu" class="menu-link">&#9776;</a>
       <div class ="sidebar">
-        <img src="conquest-img/logo2.png">
-        <ul class="nav nav-tabs">
+
+        <div class ="top-box clearfix">
+
+      
+        <img src="conquest-img/logotry4.png">
+        </div>
+
+        <nav id="menu" class="panel" role="navigation">
+
+        <ul class="nav nav-tabs ">
+
+          <li class="active"><a data-toggle="tab" href=".row">Home</a></li>
+          <li><a data-toggle="tab" href="#beers">Beers</a></li>
+          <li><a data-toggle="tab" href="#menu2">About Us</a></li>
+          <li><a data-toggle="tab" href="#menu3">Find Us</a></li>
+        </ul>
+      </nav>
+       <ul class=" second-nav nav nav-tabs">
+
           <li class="active"><a data-toggle="tab" href=".row">Home</a></li>
           <li><a data-toggle="tab" href="#beers">Beers</a></li>
           <li><a data-toggle="tab" href="#menu2">About Us</a></li>
@@ -34,7 +54,7 @@
         <div class="tab-content">
           <div class = " tab-pane fade in active row inner-content clearfix">
             <div class =" row-sm-height div2">
-              <img class =" my-knight img-responsive" img src="conquest-img/midknight2.png">
+              <img class =" my-knight img-responsive" img src="conquest-img/walking.jpeg">
               <span class="overlay"></span>
               <img class ="hist9"img src="conquest-img/history9.png">
               </div> <!--end of div2 -->
@@ -53,13 +73,13 @@
                   </div> <!--end of div 4-->
                   <div class ="div5">
                     <div class ="div6">
-                      <img class ="img-responsive" img src="conquest-img/tastingroom.jpg">
+                      <img class ="img-responsive" img src="conquest-img/beer-pic.jpeg">
                       <img class ="img-responsive findus" img src="conquest-img/allbeers.png">
                       <span class="overlay2"></span>
                       </div> <!--end of div 6 -->
                       <div class ="div7">
                         <span class="overlay2"></span>
-                        <img class ="img-responsive" img src="conquest-img/pourbeer.jpg">
+                        <img class ="img-responsive" img src="conquest-img/beer-drink.jpeg">
                         <img class ="img-responsive taste " img src="conquest-img/tastingroom.png">
                         
                         </div> <!--end of div 7-->
@@ -72,21 +92,26 @@
                         
                         <!-- CONTENT FOR WEBSITE -->
                         <div id="beers" class=" clearfix tab-pane fade">
-                          <div class ="beer-1">
-                            <img class ="img-responsive" img src="conquest-img/ice-test.jpg">
-                            <ul class="nav nav-tabs">
+                          <div class ="beer-1 clearfix">
+                            <span class="overlay4"></span>
+                            <img class ="img-responsive" img src="conquest-img/yearround.jpeg">
+                            <ul class="nav nav-tabs nav-beer">
                               <li><a data-toggle="tab" href="#beers-season">Year Round</a></li>
                             </ul>
                           </div>
+
                           <div class ="beer-2">
-                            <img class ="img-responsive" img src="conquest-img/pourbeer.jpg">
-                            <ul class="nav nav-tabs">
+                            <span class="overlay4"></span>
+                            <img class ="img-responsive" img src="conquest-img/horse-winter.jpeg">
+                            <ul class="nav nav-tabs nav-beer">
                               <li><a data-toggle="tab" href="#beers-year">Beers</a></li>
                             </ul>
                           </div>
+
                           <div class ="beer-3">
-                            <img class ="img-responsive" img src="conquest-img/pourbeer.jpg">
-                            <ul class="nav nav-tabs">
+                            <span class="overlay4"></span>
+                            <img class ="img-responsive" img src="conquest-img/imperial.jpg">
+                            <ul class="nav nav-tabs nav-beer">
                               <li><a data-toggle="tab" href="#beers-imperials">Beers</a></li>
                             </ul>
                           </div>
@@ -95,26 +120,43 @@
                             <h3>Menu 2</h3>
                             <p>Some content in menu 2.</p>
                           </div>
-                          <div id= "beers-season" class=" tab-pane fade">
-                            
-                            <h1>Seasonal Beers 2</h1>
-                            <div class ="beer-row-2 clearfix">
-                              <div class="beer-rack clearfix" ><img src="conquest-img/artimis.jpg"><h3 class="beer-talk">Sarah, Dec '02</h3> </div>
 
-                              <p>Artemis is a goddess. The goddess of the forest and the hunt, ruler of the stormy mountains. The daughter of Zeus and twin of Apollo. From her noble beginnings she ascended to become one of the most revered figures of Greece, and her temple is one of the wonders of the world.
-                              With a crystal clear blonde body and fluffy white head, her effervescence emanates as she quenches your thirst and caresses your tongue with mild notes of Belma and Zythos and a delicate malt profile. Her warrior spirit can be experienced in the mild bitterness that is perfectly balanced with the refreshing, honey-like sweetness. Experience her for yourself. You will know the purity of the noble-born.</p>
-                            </div>
-                            <div class ="beer-row-2 clearfix">
-                              <a class="beer-rack clearfix" a href=""><img src="conquest-img/medusa.jpg"></a>
-                              <p>Artemis is a goddess. The goddess of the forest and the hunt, ruler of the stormy mountains. The daughter of Zeus and twin of Apollo. From her noble beginnings she ascended to become one of the most revered figures of Greece, and her temple is one of the wonders of the world.
-                              With a crystal clear blonde body and fluffy white head, her effervescence emanates as she quenches your thirst and caresses your tongue with mild notes of Belma and Zythos and a delicate malt profile. Her warrior spirit can be experienced in the mild bitterness that is perfectly balanced with the refreshing, honey-like sweetness. Experience her for yourself. You will know the purity of the noble-born.</p>
-                            </div>
-                            <div class ="beer-row-2 clearfix">
-                              <a class="beer-rack clearfix" a href=""><img src="conquest-img/dark-beer.jpg"></a>
-                              <p>Artemis is a goddess. The goddess of the forest and the hunt, ruler of the stormy mountains. The daughter of Zeus and twin of Apollo. From her noble beginnings she ascended to become one of the most revered figures of Greece, and her temple is one of the wonders of the world.
-                              With a crystal clear blonde body and fluffy white head, her effervescence emanates as she quenches your thirst and caresses your tongue with mild notes of Belma and Zythos and a delicate malt profile. Her warrior spirit can be experienced in the mild bitterness that is perfectly balanced with the refreshing, honey-like sweetness. Experience her for yourself. You will know the purity of the noble-born.</p>
-                            </div>
-                          </div>
+                          <div id= "beers-season" class=" clearfix tab-pane fade">
+                            <div class ="beer-box clearfix">
+                            <h3>Seasonal Beers </h3>
+                            <div class ="beer-left">
+                                  <a href=""><img src="conquest-img/beer-heart.png"></a>
+                                  <h1>Artemis Blond</h1>
+                                  <ul>
+                                    <li>OG: 10 degrees Plato</li>
+                                    <li>ABV: 4.2%</li>
+                                    <li>Malts: American Two-Row,</li>
+                                    <li>Hops: Warrior, Belma</li>
+
+
+
+                                  </ul>
+
+
+                            </div> <!--end of beer-left -->
+
+                            <div class ="beer-middle">
+                                  <a href=""><img src="conquest-img/beer-heart.png"></a>
+                                  <h1>Sacred Heart</h1>
+                                  <p>IPA</p>
+
+
+                            </div> <!--end of beer-left -->
+                            <div class ="beer-right">
+                                  <a href=""><img src="conquest-img/beer-medusa.png"></a>
+                                  <h1>Medusa</h1>
+                                  <p>IPA</p>
+
+
+                            </div> <!--end of beer-left -->
+                           </div> <!--end of beer-rack -->
+                          </div> <!--end of beer-season -->
+
                           <div id= "beers-year" class="tab-pane fade">
                             <p>Year Round Selection 2</p>
                           </div>
@@ -129,6 +171,15 @@
                           </div> <!--end of holdme -->
                           
                           <script src="node_modules/jquery/dist/jquery.min.js"></script>
+                          <script src="js/bigSlide.js"></script>
+                                                        <script>
+                                  $(document).ready(function() {
+                                      $('.menu-link').bigSlide();
+                                  });
+                              </script>
+
+                             
+                           
                           
                         </body>
                       </html>

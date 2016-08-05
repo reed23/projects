@@ -14,10 +14,13 @@
   clear: both;
 }
 
-/***** SITE STYLES *************/
-/**********************************/
-/*end of 600 */
+
+
+@media screen and (min-width: 800px) {
+  /* line 49, ../scss/style.scss */
+  
+}
 /*end of 800 */
 /*end of 1000 */
-/*end of 1000 */
-/*end of 1000 */
+/*end of 1000 *//*end of 1000 */
+

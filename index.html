@@ -21,11 +21,26 @@
   <body>
     <div class ="holdme clearfix">
       <div class ="sidebar">
+        <div class ="top-box clearfix">
+
+        <a href="#menu" class="menu-link">&#9776;</a>
         <img src="conquest-img/logo2.png">
-        <ul class="nav nav-tabs">
+        </div>
+
+        <nav id="menu" class="panel" role="navigation">
+
+        <ul class="nav nav-tabs ">
+
           <li class="active"><a data-toggle="tab" href=".row">Home</a></li>
           <li><a data-toggle="tab" href="#beers">Beers</a></li>
-          <li><a data-toggle="tab" href="#menu2">Social</a></li>
+          <li><a data-toggle="tab" href="#menu2">About Us</a></li>
+          <li><a data-toggle="tab" href="#menu3">Find Us</a></li>
+        </ul>
+      </nav>
+       <ul class=" second-nav nav nav-tabs">
+
+          <li class="active"><a data-toggle="tab" href=".row">Home</a></li>
+          <li><a data-toggle="tab" href="#beers">Beers</a></li>
           <li><a data-toggle="tab" href="#menu2">About Us</a></li>
           <li><a data-toggle="tab" href="#menu3">Find Us</a></li>
         </ul>
@@ -130,6 +145,12 @@
                           </div> <!--end of holdme -->
                           
                           <script src="node_modules/jquery/dist/jquery.min.js"></script>
+                          <script src="js/bigSlide.js"></script>
+                                                        <script>
+                                  $(document).ready(function() {
+                                      $('.menu-link').bigSlide();
+                                  });
+                              </script>
                           
                         </body>
                       </html>
