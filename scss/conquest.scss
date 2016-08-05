@@ -13,6 +13,66 @@ clear: both;
 /***** SITE STYLES *************/
 /**********************************/
 
+@font-face {
+font-family: din-condensed-Black;
+src: url('../fonts/din-pro-cond/DINPro-Black.otf');
+
+}
+
+@font-face {
+font-family: din-condensed-bold;
+src: url('../fonts/din-pro-cond/DINPro-CondBold.otf');
+
+}
+
+
+@font-face {
+font-family: din-condensed;
+src: url('../fonts/din-pro-cond/DINPRO-Cond.otf');
+
+}
+
+
+
+.nav-beer{
+	    position: absolute;
+    top: 0;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+
+    li{
+    	list-style-type: none;
+    }
+
+    a{
+    	text-decoration: none;
+    }
+}
+
+
+
+
+.image_a{
+	position:absolute;
+	width:100%;
+	left:0;
+	top:0;
+	bottom:0;
+}
+
+
+.fade.in{
+	display:block;
+}
+
+.my-knight{
+	max-height:300px;
+}
+
+
 
 .beer-box{
 	width:80%;
@@ -21,7 +81,7 @@ clear: both;
 
 	h3{
 		font-size: 36px;
-		font-family: 'Roboto Slab', serif;
+		font-family: din-condensed-Black;
 		font-weight: 700;
 		border-bottom:5px solid;
 		width:70%;
@@ -139,7 +199,51 @@ margin-bottom:10px;
 
 float:left;
 }
+.beer-1 > .overlay4{
 
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: #262626;
+opacity: 0.5;
+width:100%;
+z-index:100;
+
+
+}
+.beer-2 > .overlay4{
+
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: #262626;
+opacity: 0.5;
+width:100%;
+z-index:100;
+
+
+}
+.beer-3 > .overlay4{
+
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: #262626;
+opacity: 0.5;
+width:100%;
+z-index:100;
+
+
+}
 .beer-1 a{
 position:absolute;
 color:white;
@@ -153,16 +257,16 @@ position:absolute;
 color:white;
 }
 #beers div{
-height:650px;
+height:100%;
 width:33.3%;
 float:left;
+position:relative;
 }
 #beers img{
-position: absolute;
-top: 0;
-width:26%;
-
-height: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 .practice-nav{
 
@@ -178,8 +282,8 @@ margin-left:40px;
 }
 .tab-content{
 float:none;
-width:90%;
-margin: 0 auto;
+width:100;
+
 }
 #menu2{
 width:100%;
@@ -251,7 +355,7 @@ height:25%;
 .div2 >.hist9{
 width:50%;
 height:30%;
-margin-left:100px;
+margin-left:52px;
 margin-top:100px;
 position:absolute;
 }
@@ -309,10 +413,7 @@ text-align:center;
 margin-left:135px;
 margin-top:25%;
 }
-img{
-width:100%;
-display:block;
-}
+
 .row >.seasonal ,.year-round, .imperials {
 background: url('../conquest-img/bar12.jpg') no-repeat center center;
 background-size:cover;
@@ -321,11 +422,53 @@ text-align: center;
 margin-top: -14px;
 
 background-size:cover;
+
+
+
 }
-@media screen and (min-width: 600px) {
+
+.sidebar{
+	display:none;
+}
+@media screen and (min-width: 650px) {
 
 
 
+#beers{
+
+
+height:100%;
+position:absolute;
+right:0;
+bottom:0;
+top:0;
+left:0%;
+margin-left:200px;
+
+}
+
+
+.div2 >.hist9{
+width:50%;
+height:30%;
+margin-left:52px;
+margin-top:200px;
+position:absolute;
+}
+
+
+
+.my-knight{
+	max-height:none;
+}
+
+.tab-content{
+float:none;
+width:90;
+margin: 0 auto;
+max-height:300px;
+
+}
 
 
 #beers-season img
@@ -448,11 +591,12 @@ width:79%;
 height:650px;
 }
 .sidebar img{
-width:75%;
+width:65%;
 text-align:center;
-margin: 0 auto;
+
 padding-bottom:25px;
 margin-top:50px;
+margin-left:34px;
 }
 img{
 max-width:none;
@@ -465,9 +609,11 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
 .div2:hover .overlay{
 opacity:0;
 }
+
 .div4:hover .overlay{
 opacity:0;
 }
@@ -483,7 +629,7 @@ opacity:0;
 .div9:hover .overlay3{
 opacity: 0;
 }
-.overlay3{
+.overlay3 {
 display: block;
 position: absolute;
 top: 0;
@@ -494,8 +640,9 @@ background: #262626;
 opacity: 0.5;
 float: right;
 width: 100%;
+ 
 }
-.overlay{
+.overlay {
 display: block;
 position: inherit;
 top: 0;
@@ -504,8 +651,14 @@ right: 0;
 bottom: 0;
 background: #262626;
 opacity: 0.5;
-background: url('../conquest-img/patternpng.png') no-repeat center center;
+
 }
+
+
+
+
+
+
 .overlay2{
 display: block;
 position: absolute;
@@ -515,7 +668,7 @@ right: 0;
 bottom: 0;
 background: #262626;
 opacity: 0.5;
-background: url('../conquest-img/patternpng.png') no-repeat center center;
+ 
 }
 .div2{
 repeat:no-repeat;
@@ -527,11 +680,7 @@ overflow: hidden;
 
 }
 .div4 > .hist9{
--webkit-filter: grayscale(100%);
--webkit-transition: .5s ease-in-out;
--moz-filter: grayscale(100%);
--moz-transition: .5s ease-in-out;
--o-filter: grayscale(100%);
+
 -o-transition: .5s ease-in-out;
 -webkit-transition: all 1s ease; /* Safari and Chrome */
 -moz-transition: all 1s ease; /* Firefox */
@@ -548,18 +697,10 @@ overflow: auto;
 -o-transform:scale(1.25); /* Opera */
 transform:scale(1.25);
 max-width: 100%;
--webkit-filter: grayscale(0%);
--webkit-transition: .5s ease-in-out;
--moz-filter: grayscale(0%);
--moz-transition: .5s ease-in-out;
--o-filter: grayscale(0%);
+
 }
 .div2 > .my-knight{
--webkit-filter: grayscale(100%);
--webkit-transition: .5s ease-in-out;
--moz-filter: grayscale(100%);
--moz-transition: .5s ease-in-out;
--o-filter: grayscale(100%);
+
 -o-transition: .5s ease-in-out;
 -webkit-transition: all 1s ease; /* Safari and Chrome */
 -moz-transition: all 1s ease; /* Firefox */
@@ -576,11 +717,6 @@ overflow: auto;
 -o-transform:scale(1.25); /* Opera */
 transform:scale(1.25);
 max-width: 100%;
--webkit-filter: grayscale(0%);
--webkit-transition: .5s ease-in-out;
--moz-filter: grayscale(0%);
--moz-transition: .5s ease-in-out;
--o-filter: grayscale(0%);
 }
 .div4{
 background-size:cover;
@@ -642,18 +778,23 @@ display:block;
 background-color:black;
 float:left;
 position:fixed;
-width:22%;
+width:200px;
 height:100%;
 max-width:280px;
 text-align:center;
 left:0;
 top:0;
 a{
-color:#ddd7d7;
-font-family: 'Bitter', serif;
-text-transform:uppercase;
-font-size:1.5em;
 
+font-family: din-condensed;
+color: #ddd7d7;
+    text-transform: uppercase;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+ 
+    letter-spacing: 2px;
 
 }
 ul{
@@ -699,15 +840,17 @@ float:right;
 width:55%;
 background-color:blue;
 position:relative;
-height:650px;
+height:100%;
 }
 .inner-content{
-width:79%;
-height:650px;
+
+height:100%;
 position:absolute;
 right:0;
 bottom:0;
 top:0;
+left:0%;
+margin-left:200px;
 }
 .div4{
 background-color:tan;
@@ -732,6 +875,26 @@ left:0;
 height:50%;
 }
 .div6{
+float:none;
+width:100%;
+background-color:blue;
+height: 50%;
+padding-bottom:0%;
+margin-top: 0px;
+}
+.div7{
+float:none;
+width:100%;
+background-color:green;
+height:50%;
+padding-bottom:0%;
+margin-top: 50%;
+}
+}/*end of 600 */
+@media screen and (min-width: 900px) {
+
+
+.div6{
 float:left;
 width:50%;
 background-color:blue;
@@ -747,10 +910,51 @@ height:100%;
 padding-bottom:0%;
 margin-top: 0px;
 }
-}/*end of 600 */
-@media screen and (min-width: 800px) {
+
+
+
+
 } /*end of 800 */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1050px) {
+
+#beers{
+
+
+height:100%;
+position:absolute;
+right:0;
+bottom:0;
+top:0;
+left:0%;
+margin-left:260px;
+
+}
+
+
+
+.sidebar{
+	width:260px;
+}
+
+.inner-content{
+	transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);
+    transition-duration: 0ms;
+    transform: translate(0px, 0px) translateZ(0px);
+
+height:100%;
+position:absolute;
+right:0;
+bottom:0;
+top:0;
+left:0%;
+margin-left:260px;
+}
+
+
+
+
+
+
 } /*end of 800 */
 @media screen and (min-width: 1000px) {
 } /*end of 800 */
