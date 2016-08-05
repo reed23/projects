@@ -639,13 +639,14 @@ img {
     margin-top: 20px;
     text-align: center;
     list-style-type: none;
+    padding-right: 10%;
   }
-  /* line 656, ../scss/conquest.scss */
+  /* line 658, ../scss/conquest.scss */
   .sidebar nav {
     text-align: center;
   }
 
-  /* line 663, ../scss/conquest.scss */
+  /* line 665, ../scss/conquest.scss */
   .div2 {
     repeat: no-repeat;
     background-size: cover;
@@ -661,13 +662,13 @@ img {
     margin-top: -0px;
   }
 
-  /* line 683, ../scss/conquest.scss */
+  /* line 685, ../scss/conquest.scss */
   .div2 > .my-knight {
     position: absolute;
     height: 100%;
   }
 
-  /* line 690, ../scss/conquest.scss */
+  /* line 692, ../scss/conquest.scss */
   .div3 {
     float: right;
     width: 55%;
@@ -676,7 +677,7 @@ img {
     height: 650px;
   }
 
-  /* line 699, ../scss/conquest.scss */
+  /* line 701, ../scss/conquest.scss */
   .inner-content {
     width: 79%;
     height: 650px;
@@ -686,7 +687,7 @@ img {
     top: 0;
   }
 
-  /* line 709, ../scss/conquest.scss */
+  /* line 711, ../scss/conquest.scss */
   .div4 {
     background-color: tan;
     position: absolute;
@@ -700,7 +701,7 @@ img {
     margin-top: 0px;
   }
 
-  /* line 722, ../scss/conquest.scss */
+  /* line 724, ../scss/conquest.scss */
   .div5 {
     background-color: gray;
     text-align: center;
@@ -712,7 +713,7 @@ img {
     height: 50%;
   }
 
-  /* line 735, ../scss/conquest.scss */
+  /* line 737, ../scss/conquest.scss */
   .div6 {
     float: left;
     width: 50%;
@@ -722,7 +723,7 @@ img {
     margin-top: 0px;
   }
 
-  /* line 745, ../scss/conquest.scss */
+  /* line 747, ../scss/conquest.scss */
   .div7 {
     float: right;
     width: 50%;
