@@ -334,7 +334,7 @@ width:78%;
 }
 
 .my-knight{
-	height:350px;
+	max-height:350px;
 	width:100%;
 }
 
@@ -832,6 +832,21 @@ opacity: 0.5;
 }
 
 @media screen and (min-width: 650px) {
+
+.hist10{
+	position:absolute;
+	z-index:1000;
+	margin-top: 0px;
+    width: 35%;
+    margin-left: 100px;
+}
+
+
+.my-knight{
+	
+	width:100%;
+}
+
 
 
 .button-text{
