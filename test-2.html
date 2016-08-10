@@ -13,248 +13,214 @@
     <link rel="stylesheet" href="css/bootstrap-conquest.css">
     <link rel="stylesheet" href="css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-   
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  
+    
     <link rel="stylesheet" href="css/conquest.css">
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
- 
-                  
+    
+    
     
   </head>
   <body>
     <div class ="holdme clearfix">
-     <button id="toggle" class ="toggle"style="position:absolute; top: 120px;">Toggle</button>
-<a id="toggle" class ="toggle" href="#"><span></span></a>
+      <button id="toggle" class ="toggle"style="position:absolute; top: 120px;">Toggle</button>
+      <a id="toggle" class ="toggle" href="#"><span></span></a>
       <div class ="sidebar">
-
-
         <div class ="top-box clearfix">
-
-      
-       
+          
+          
         </div>
-
-     
-     <script type="text/javascript"></script>
+        
+        <script type="text/javascript"></script>
         
         
         </div> <!--div1 -->
-
-  <div id ="slider"  class ="sidebar slide-in">
-
-        <div class ="top-box clearfix">
-
-      
-        <img src="conquest-img/logotry4.png">
-        </div>
-
-        <nav id="menu-mobile" class="panel" role="navigation">
-
-        <ul class="nav nav-tabs ">
-
-          <li class="active"><a data-toggle="tab" href=".row">Home</a></li>
-          <li><a data-toggle="tab" href="#beers">Beers</a></li>
-          <li><a data-toggle="tab" href="#menu2">About Us</a></li>
-          <li><a data-toggle="tab" href="#menu3">Find Us</a></li>
-        </ul>
-      </nav>
-     
-        
-        
-        </div> <!--div1 -->
-
-
-
-
-
+        <div id ="slider"  class ="sidebar slide-in">
+          <div class ="top-box clearfix">
+            
+            <img src="conquest-img/logotry4.png">
+          </div>
+          <nav id="menu-mobile" class="panel" role="navigation">
+            <ul class="nav nav-tabs ">
+              <li class="active"><a data-toggle="tab" href=".row">Home</a></li>
+              <li><a data-toggle="tab" href="#beers-season">Beers</a></li>
+              <li><a data-toggle="tab" href="#menu2">About Us</a></li>
+              <li><a data-toggle="tab" href="#menu3">Find Us</a></li>
+            </ul>
+          </nav>
+          
+          
+          
+          </div> <!--div1 -->
           <script type="text/javascript">var $slider = document.getElementById('slider');
-            var $toggle = document.getElementById('toggle');
-
-            $toggle.addEventListener('click', function() {
-                var isOpen = $slider.classList.contains('slide-in');
-
-                $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
-
-
-
-           
-
-
-                $toggle.setAttribute('class', isOpen ? 'chicken' : 'nav-close');
-
-             var $tabs = document.getElementById('overlay-blur');
-
-                 $tabs.setAttribute('class', isOpen ? 'chicken' : 'blurred');
-
-
-             
-  
-
-            });</script>
-
-      <script type="text/javascript">document.querySelector( "#toggle" )
-  .addEventListener( "click", function() {
-    this.classList.toggle( "active" );
-  });</script>
-
-
-        <div id ="blur-me" class="tab-content reed">
-
-          <span class="overlay"></span>
-           <span id ="overlay-blur" class= "chicken"></span>
-
-          <div class = " tab-pane fade in active row inner-content clearfix">
-            <div class =" row-sm-height div2">
-               <span class="overlay"></span>
-              <img class =" my-knight img-responsive" img src="conquest-img/walking.jpeg">
-             
-              <img class ="hist10"img src="conquest-img/history9.png">
-              </div> <!--end of div2 -->
-              <div class =" row-sm-height div3">
+          var $toggle = document.getElementById('toggle');
+          $toggle.addEventListener('click', function() {
+          var isOpen = $slider.classList.contains('slide-in');
+          $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
+          
+          $toggle.setAttribute('class', isOpen ? 'chicken' : 'nav-close');
+          var $tabs = document.getElementById('overlay-blur');
+          $tabs.setAttribute('class', isOpen ? 'chicken' : 'blurred');
+          
+          
+          });</script>
+          <script type="text/javascript">document.querySelector( "#toggle" )
+          .addEventListener( "click", function() {
+          this.classList.toggle( "active" );
+          });</script>
+          <div id ="blur-me" class="tab-content reed">
+            <span class="overlay-bottom"></span>
+            <div class = " tab-pane fade in active row inner-content clearfix">
+              <div class =" row-sm-height div2">
+                <span class="overlay"></span>
+                <img class =" my-knight img-responsive" img src="conquest-img/walking.jpeg">
                 
-                <div class ="div4">
-                  <img class ="img-responsive beers-pic" img src="conquest-img/conquer-night4.png">
-                  <img class ="hist9"img src="conquest-img/nighttime.jpeg">
-                  <div class ="button-text">
-                    <p>Follow us on social media</p>
-                    <button>Follow Us </button>
-                  </div>
+                <img class ="hist10"img src="conquest-img/history9.png">
+                </div> <!--end of div2 -->
+                <div class =" row-sm-height div3">
                   
-                  
-                  <span class="overlay"></span>
-                  </div> <!--end of div 4-->
-                  <div class ="div5">
-                    <div class ="div6">
-                      <img class ="img-responsive" img src="conquest-img/beer-pic.jpeg">
-                      <img class ="img-responsive findus" img src="conquest-img/allbeers.png">
-                      <span class="overlay2"></span>
-                      </div> <!--end of div 6 -->
-                      <div class ="div7">
-                        <span class="overlay2"></span>
-                        <img class ="img-responsive" img src="conquest-img/beer-drink.jpeg">
-                        <img class ="img-responsive taste " img src="conquest-img/tastingroom.png">
-                        
-                        </div> <!--end of div 7-->
-                        </div> <!--end of div5 -->
-                        
-                        
-                        </div> <!--end of div3 -->
-                        
-                        </div> <!--end of inner -content -->
-                        
-                        <!-- CONTENT FOR WEBSITE -->
-                        <div id="beers" class=" clearfix tab-pane fade">
-                          <div class ="beer-1 clearfix">
-                            <span class="overlay4"></span>
-                            <img class ="img-responsive" img src="conquest-img/yearround.jpeg">
-                            <ul class="nav nav-tabs nav-beer">
-                              <li><a data-toggle="tab" href="#beers-season">Year Round</a></li>
-                            </ul>
-                          </div>
-
-                          <div class ="beer-2">
-                            <span class="overlay4"></span>
-                            <img class ="img-responsive" img src="conquest-img/horse-winter.jpeg">
-                            <ul class="nav nav-tabs nav-beer">
-                              <li><a data-toggle="tab" href="#beers-year">Beers</a></li>
-                            </ul>
-                          </div>
-
-                          <div class ="beer-3">
-                            <span class="overlay4"></span>
-                            <img class ="img-responsive" img src="conquest-img/imperial.jpg">
-                            <ul class="nav nav-tabs nav-beer">
-                              <li><a data-toggle="tab" href="#beers-imperials">Beers</a></li>
-                            </ul>
-                          </div>
-                          </div> <!--end of beers -->
-                          <div id="menu2" class="tab-pane fade">
-                            <span class="overlay4"></span>
-                            <div class ="in-menu">
-                            <h3>Our Story</h3>
-                            <p>Conquest Brewing Company is the embodiment of an idea. The idea that beer should be more than a beverage, more than an alcohol delivery system. The idea that the long, painful history of mankind has many common threads woven throughout it, and one of these threads is beer. While it is arguably not the most important thread of civilization, it is one of the chief building blocks thereof.
-                            We at Conquest Brewing Company continue the proud tradition of so many saints and vagabonds, lords and serfs before us: the tradition of crafting, and enjoying, the most complex and inviting, the most approachable and esoteric beverages the world has ever known.
-
-                            Our beers pay homage to bygone times of war and peace, to tales both fantastic and dreadfully real. We believe that the onward march of history will show that in the end, honor is what makes a man, and taste is what makes a beer– not marketing, not hype. Taste. And we do not intend to be lost to the annals of history.
-
-                            Conquest.
-                            History is written by the Victor.
-                    Join Us.</p>
-                                </div> <!--end od in-menu -->
-                          </div>
-                          <div id="menu3" class="tab-pane fade">
-                              <span class="overlay4"></span>
-                            <div class ="in-menu2"> 
-                          <p>Conquest Brewing Company is the embodiment of an idea. The idea that beer should be more than a beverage, more than an alcohol delivery system. The idea that the long, painful history of mankind has many common threads woven throughout it, and one of these threads is beer. While it is arguably not the most important thread of civilization, it is one of the chief building blocks thereof.
-                            We at Conquest Brewing Company continue the proud tradition of so many saints and vagabonds, lords and serfs before us: the tradition of crafting, and enjoying, the most complex and inviting, the most approachable and esoteric beverages the world has ever known.
-
-                            Our beers pay homage to bygone times of war and peace, to tales both fantastic and dreadfully real. We believe that the onward march of history will show that in the end, honor is what makes a man, and taste is what makes a beer– not marketing, not hype. Taste. And we do not intend to be lost to the annals of history.
-
-                            Conquest.
-                            History is written by the Victor.
-                    Join Us.</p>
+                  <div class ="div4">
+                    <img class ="img-responsive beers-pic" img src="conquest-img/conquer-night4.png">
+                    <img class ="hist9"img src="conquest-img/nighttime.jpeg">
+                    <div class ="button-text">
+                      <p>Follow us on social media</p>
+                      <button>Follow Us </button>
                     </div>
-                          </div>
-
+                    
+                    
+                    <span class="overlay"></span>
+                    </div> <!--end of div 4-->
+                    <div class ="div5">
+                      <div class ="div6">
+                        <img class ="img-responsive" img src="conquest-img/beer-pic.jpeg">
+                        <img class ="img-responsive findus" img src="conquest-img/allbeers.png">
+                        <span class="overlay5"></span>
+                        </div> <!--end of div 6 -->
+                        <div class ="div7">
+                          <span class="overlay2"></span>
+                          <img class ="img-responsive" img src="conquest-img/beer-drink.jpeg">
+                          <img class ="img-responsive taste " img src="conquest-img/tastingroom.png">
                           
-
-                          <div id= "beers-season" class=" clearfix tab-pane fade">
-                            <div class ="beer-box clearfix">
-                            <h3>Seasonal Beers </h3>
-                            <div class ="beer-left">
-                                  <a href=""><img src="conquest-img/beer-heart.png"></a>
-                                  <h1>Artemis Blond</h1>
-                                  <ul>
-                                    <li>OG: 10 degrees Plato</li>
-                                    <li>ABV: 4.2%</li>
-                                    <li>Malts: American Two-Row,</li>
-                                    <li>Hops: Warrior, Belma</li>
-
-
-
-                                  </ul>
-
-
-                            </div> <!--end of beer-left -->
-
-                            <div class ="beer-middle">
-                                  <a href=""><img src="conquest-img/beer-heart.png"></a>
-                                  <h1>Sacred Heart</h1>
-                                  <p>IPA</p>
-
-
-                            </div> <!--end of beer-left -->
-                            <div class ="beer-right">
-                                  <a href=""><img src="conquest-img/beer-medusa.png"></a>
-                                  <h1>Medusa</h1>
-                                  <p>IPA</p>
-
-
-                            </div> <!--end of beer-left -->
-                           </div> <!--end of beer-rack -->
-                          </div> <!--end of beer-season -->
-
-                          <div id= "beers-year" class="tab-pane fade">
-                            <p>Year Round Selection 2</p>
-                          </div>
-                          <div id= "beers-imperials" class="tab-pane fade">
-                            <p>Imperials</p>
-                          </div>
-                          <div id="menu3" class="tab-pane fade">
-                            <h3>Menu 3</h3>
-                            <p>Some content in menu 2.</p>
-                          </div>
-                          </div> <!--end of content container for holding tabs -->
-                          </div> <!--end of holdme -->
+                          </div> <!--end of div 7-->
+                          </div> <!--end of div5 -->
                           
-                          <script src="node_modules/jquery/dist/jquery.min.js"></script>
-                   
-
-                             
-                           
                           
-                        </body>
-                      </html>
+                          </div> <!--end of div3 -->
+                          
+                          </div> <!--end of inner -content -->
+                          
+                          <!-- CONTENT FOR WEBSITE -->
+                          <div id="beers" class=" clearfix tab-pane fade">
+                            
+                            </div> <!--end of beers -->
+                            <div id="menu2" class="tab-pane fade">
+                              <span class="overlay4"></span>
+                              <div class ="in-menu">
+                                <h3>Our Story</h3>
+                                <p>Conquest Brewing Company is the embodiment of an idea. The idea that beer should be more than a beverage, more than an alcohol delivery system. The idea that the long, painful history of mankind has many common threads woven throughout it, and one of these threads is beer. While it is arguably not the most important thread of civilization, it is one of the chief building blocks thereof.
+                                  We at Conquest Brewing Company continue the proud tradition of so many saints and vagabonds, lords and serfs before us: the tradition of crafting, and enjoying, the most complex and inviting, the most approachable and esoteric beverages the world has ever known.
+                                  Our beers pay homage to bygone times of war and peace, to tales both fantastic and dreadfully real. We believe that the onward march of history will show that in the end, honor is what makes a man, and taste is what makes a beer– not marketing, not hype. Taste. And we do not intend to be lost to the annals of history.
+                                  Conquest.
+                                  History is written by the Victor.
+                                Join Us.</p>
+                                </div> <!--end od in-menu -->
+                              </div>
+                              <div id="menu3" class="tab-pane fade">
+                                <span class="overlay4"></span>
+                                <div class ="in-menu2">
+                                  <p>Conquest Brewing Company is the embodiment of an idea. The idea that beer should be more than a beverage, more than an alcohol delivery system. The idea that the long, painful history of mankind has many common threads woven throughout it, and one of these threads is beer. While it is arguably not the most important thread of civilization, it is one of the chief building blocks thereof.
+                                    We at Conquest Brewing Company continue the proud tradition of so many saints and vagabonds, lords and serfs before us: the tradition of crafting, and enjoying, the most complex and inviting, the most approachable and esoteric beverages the world has ever known.
+                                    Our beers pay homage to bygone times of war and peace, to tales both fantastic and dreadfully real. We believe that the onward march of history will show that in the end, honor is what makes a man, and taste is what makes a beer– not marketing, not hype. Taste. And we do not intend to be lost to the annals of history.
+                                    Conquest.
+                                    History is written by the Victor.
+                                  Join Us.</p>
+                                </div>
+                              </div>
+                              <div id= "beers-season" class=" clearfix tab-pane fade">
+                                
+                                <div class ="beer-box clearfix">
+                                  
+                                  <h3>Seasonal Beers </h3>
+                                  <div class ="beer-left">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                      
+                                      <li role="presentation"><a href="#medusa" aria-controls="medusa" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                                      
+                                      
+                                      
+                                      </div> <!--end of beer-left -->
+                                      <div class ="beer-middle">
+                                        <li role="presentation"><a href="#medusa" aria-controls="medusa" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                                        
+                                        
+                                        </div> <!--end of beer-left -->
+                                        <div class ="beer-right">
+                                          <li role="presentation"><a href="#beers-year" aria-controls="beers-year" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                                          
+                                          </div> <!--end of beer-left -->
+                                          
+                                          </div> <!--end of beer-box -->
+                                          
+                                        </ul>
+                                        
+                                        </div> <!--end of beer-season -->
+                                        <div id ="medusa" class = "tab-pane fade ">
+                                        <header class ="medusa-header"> <h1>Seasonal</h1>></header>
+                                        <div class ="beer-page clearfix">
+                                          <div class ="beer-page-left">  
+                                          <p>
+                                            Medusa. That evil creature with snakes instead of hair, slithering towards you with lithe malice, ever wanting to crush you in her cold embrace. Sweet and silky, the seductress uses the dark arts of chocolate malt and roasted barley to give your palate a ravishing experience that you will not soon forget.
+                                          By utilizing advanced mashing techniques rather than lactose sugar, Conquest has created a stout that is reminiscent of both a chocolate stout and a milk stout, but that is suitable for the lactose intolerant. There is enough sweet chocolate flavor that many have sworn we cheated. Judge for yourself.</p>
+
+
+                                          <div class ="box-left"><p>ABV</p><P>570%</P></div>
+                                          <div class ="box-left"><p>ABV</p><P>570%</P></div>
+                                          <div class ="box-right"><p>ABV</p><P>570%</P></div>
+
+                                        </div> <!--end of beer-page-left -->
+                                        <div class ="beer-page-right">
+                                          <img src="conquest-img/beer-heart.png">
+                                        </div> <!--end of beer-page-right -->
+
+                                          </div> <!--end of beer-page -->
+                                          
+                                        </div>
+                                        <div id= "artemis" class="tab-pane fade">
+                                          <p>Year Round Selection 2</p>
+                                        </div>
+                                        <div id= "deralt" class="tab-pane fade">
+                                          <p>Imperials</p>
+                                        </div>
+                                        <div id= "frederick" class="tab-pane fade">
+                                          <p>Imperials</p>
+                                        </div>
+                                        <div id= "harley" class="tab-pane fade">
+                                          <p>Imperials</p>
+                                        </div>
+                                        <div id= "heart" class="tab-pane fade">
+                                          <p>Imperials</p>
+                                        </div>
+                                        <div id= "brutus" class="tab-pane fade">
+                                          <p>Imperials</p>
+                                        </div>
+                                        <div id= "map" class="tab-pane fade">
+                                          <p>Imperials</p>
+                                        </div>
+                                        <div id= "seas" class="tab-pane fade">
+                                          <p>Imperials</p>
+                                        </div>
+                                        <div id="menu3" class="tab-pane fade">
+                                          <h3>Menu 3</h3>
+                                          <p>Some content in menu 2.</p>
+                                        </div>
+                                        </div> <!--end of content container for holding tabs -->
+                                        </div> <!--end of holdme -->
+                                        
+                                        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+                                        
+                                        
+                                        
+                                      </body>
+                                    </html>
