@@ -38,6 +38,39 @@ src: url('../fonts/din-pro-cond/DINPRO-Cond.otf');
 
 }
 
+.overlay{
+	display:none;
+}
+
+.six-box{
+	position:absolute;
+	z-index:30000;
+	margin-top:-170px;
+
+	p{
+		color: white;
+		font-size: 18px;
+		width: 80%;
+		margin: 0 auto;
+		padding-bottom:25px;
+	}
+
+}
+.seven-box{
+	position:absolute;
+	z-index:30000;
+	margin-top:-170px;
+
+	p{
+		color: white;
+		font-size: 18px;
+		width: 80%;
+		margin: 0 auto;
+		padding-bottom:25px;
+	}
+
+}
+
 #beers-season img{
 	width:25%;
 	margin:0 auto;
@@ -562,13 +595,13 @@ text-align:center;
 
 .button-text{
 position:absolute;
-z-index:100;
+z-index:30000;
 width:50%;
 margin-top:-170px;
 margin-left:150px;
 p{
 color: white;
-font-family: 'Bitter', serif;
+
 font-size: 1.5em;
 }
 }
@@ -1050,17 +1083,17 @@ height:100%;
 .div4 >.beers-pic{
 display:block;
 position:absolute;
-z-index:100;
+z-index:30000;
 width:60%;
 height:14%;
 text-align:center;
 margin-left:135px;
-margin-top:25%;
+margin-top:15%;
 }
 .div6 >.findus{
 display:block;
 position:absolute;
-z-index:100;
+z-index:20000;
 width:100%;
 height:8%;
 text-align:center;
@@ -1155,7 +1188,7 @@ text-align:center;
 
 .hist10{
 	position:absolute;
-	z-index:1000;
+	z-index:30000;
 	margin-top: -230px;
     width: 60%;
     margin-left: 100px;
@@ -1176,18 +1209,7 @@ float: right;
 width: 100%;
  
 }
-.overlay {
-display: none;
-position: inherit;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background: #262626;
-opacity: 0.5;
-z-index:20000;
 
-}
 
 
 
@@ -1203,7 +1225,7 @@ left: 0;
 right: 0;
 bottom: 0;
 background: #262626;
-opacity: 0.5;
+opacity: 0.7;
  
 }
 
@@ -1217,12 +1239,43 @@ opacity: 0.5;
 	border-right:1px solid black;
 }
 
+.ghost{
+ color: black;
+ background: #fff;
+ border: 1px solid black;
+ font-size: 17px;
+ padding: 7px 12px;
+ font-weight: normal;
+ margin: 6px 0;
+ margin-right: 12px;
+ display: inline-block;
+ text-decoration: none;
+ font-family: 'Open Sans', sans-serif;
+ min-width: 120px;
+}
 
-
-
+.ghost:hover, .ghost-button:active {
+  color:#fff;
+  background:black;
+}
 
 
 @media screen and (min-width: 650px) {
+
+
+.overlay {
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: #262626;
+opacity: 0.7;
+z-index:20000;
+
+}
+
 
 .large-beer{
 	margin-top:-100px;
@@ -1244,9 +1297,13 @@ left: 0;
 right: 0;
 bottom: 0;
 background: #262626;
-opacity: 0.5;
+opacity: 0.7;
 z-index:2000;
  
+}
+
+.div6:hover > .overlay5{
+	opacity:0;
 }
 
 
@@ -1254,7 +1311,7 @@ z-index:2000;
 
 .hist10{
 	position:absolute;
-	z-index:1000;
+	z-index:30000;
 	margin-top: -220px;
     width: 35%;
     margin-left: 100px;
@@ -1364,7 +1421,7 @@ line-height:1.7em;
 
 .hist10{
 	position:absolute;
-	z-index:1000;
+	z-index:30000;
 	margin-top: 100px;
     width: 60%;
     margin-left: 70px;
@@ -1380,13 +1437,13 @@ line-height:1.7em;
 
 .button-text{
 position:absolute;
-z-index:100;
+z-index:30000;
 width:50%;
 margin-top:170px;
 margin-left:150px;
 p{
 color: white;
-font-family: 'Bitter', serif;
+
 font-size: 1.5em;
 }
 }
@@ -1396,7 +1453,7 @@ font-size: 1.5em;
 .div6 >.findus{
 display:block;
 position:absolute;
-z-index:100;
+z-index:20000;
 width:50%;
 height:20%;
 text-align:center;
@@ -1550,20 +1607,22 @@ float:right;
 
 .button-text{
 position:absolute;
-z-index:100;
+z-index:30000;
 width:50%;
 margin-top:170px;
 margin-left:150px;
 p{
 color: white;
-font-family: 'Bitter', serif;
+
 font-size: 1.5em;
 }
 }
+
+
 .div6 >.findus{
 display:block;
 position:absolute;
-z-index:100;
+z-index:20000;
 width:60%;
 height:15%;
 text-align:center;
@@ -1572,6 +1631,12 @@ bottom:0;
 right:0;
 left:0;
 }
+
+
+
+
+
+
 .beer-row{
 float:right;
 width:79%;
@@ -1657,7 +1722,7 @@ left: 0;
 right: 0;
 bottom: 0;
 background: #262626;
-opacity: 0.5;
+opacity: 0.7;
  
 }
 .div2{
@@ -1716,8 +1781,7 @@ height:50%;
 background-size:cover;
 overflow: hidden;
 }
-.div6:hover{
-}
+
 .div6{
 repeat:no-repeat;
 background-size:cover;
