@@ -30,7 +30,7 @@
 }
 @font-face {
   font-family: din-condensed;
-  src: url("../fonts/din-pro-cond/DINPRO-Cond.otf");
+  src: url("../fonts/din-pro-cond/DINPro-Cond.otf");
 }
 /* line 41, ../scss/conquest.scss */
 .overlay {
@@ -173,6 +173,115 @@
   font-size: 36px;
   margin-left: 50px;
 }
+<<<<<<< HEAD
+=======
+/* line 41, ../scss/conquest.scss */
+#beers-season img {
+  width: 25%;
+  margin: 0 auto;
+}
+
+/* line 46, ../scss/conquest.scss */
+.img-block {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 30000;
+}
+/* line 54, ../scss/conquest.scss */
+.img-block img {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 61, ../scss/conquest.scss */
+.space {
+  height: 100px;
+}
+
+/* line 65, ../scss/conquest.scss */
+.gmap {
+  width: 80%;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 150px;
+  padding-bottom: 100%;
+}
+
+/* line 75, ../scss/conquest.scss */
+.form {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 79, ../scss/conquest.scss */
+.form input {
+  float: right;
+  width: 45%;
+  vertical-align: top;
+  margin-top: 20px;
+}
+/* line 87, ../scss/conquest.scss */
+.form p {
+  width: 45%;
+  float: left;
+  vertical-align: top;
+}
+
+/* line 94, ../scss/conquest.scss */
+.disc {
+  text-align: center;
+  margin-top: -20px;
+}
+
+/* line 99, ../scss/conquest.scss */
+.closebtn {
+  position: fixed;
+  color: white;
+  z-index: 40000;
+  margin-left: 140px;
+  display: none;
+}
+
+/* line 107, ../scss/conquest.scss */
+.openbtn {
+  position: fixed;
+  color: white;
+  z-index: 40000;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+
+/* line 116, ../scss/conquest.scss */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  overflow-y: auto;
+}
+
+/* line 132, ../scss/conquest.scss */
+.sidebar a:hover, .offcanvas a:focus {
+  color: #f1f1f1;
+}
+
+/* line 136, ../scss/conquest.scss */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+>>>>>>> b6e14c1f2c2168a83629ba6355c92b9743fd2e7c
 
 /* line 177, ../scss/conquest.scss */
 .fade {
