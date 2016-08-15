@@ -24,12 +24,38 @@
         background-size: 100% 100%;
     height: 50px;
     width: 50px;
-    margin-top: -650px;
+    margin-top: -1150px;
 	 }
 .unslider-arrow.prev{
-	margin-top: -650px;
+	margin-top: -1150px;
 	background: url('../conquest-img/left.png') no-repeat ;
 	    background-size: 100% 100%;
     height: 50px;
     width: 50px;
 }
+
+
+
+@media screen and (min-width: 650px) { 
+.unslider-arrow.next{
+	left:auto;
+	right:20px;
+	background: url('../conquest-img/right.png') no-repeat ;
+        background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+    margin-top: -1150px;
+	 }
+.unslider-arrow.prev{
+	margin-top: -1150px;
+	background: url('../conquest-img/left.png') no-repeat ;
+	    background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+}
+
+}
+
+
+
+

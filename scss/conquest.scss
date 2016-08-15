@@ -18,6 +18,12 @@ font-family: din-condensed-Black;
 src: url('../fonts/din-pro-cond/DINPro-Black.otf');
 
 }
+@font-face {
+font-family: din-condensed-regular;
+src: url('../fonts/din-pro-cond/DINPro.otf');
+
+}
+
 
 @font-face {
 font-family: din-condensed-bold;
@@ -32,26 +38,182 @@ src: url('../fonts/din-pro-cond/DINPRO-Cond.otf');
 
 }
 
-.sidebar li:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+#beers-season img{
+	width:25%;
+	margin:0 auto;
+}
+
+.img-block{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+	z-index:30000;
+
+
+	img{
+		width: 100%;
+		text-align: center;
+	}
 }
 
 
-.sidebar li:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+.space{
+	height:100px;
+}
+
+.gmap{
+	width:80%;
+		position:relative;
+		margin-left:10%;
+		margin-right: 10%;
+		margin-bottom: 150px;
+		padding-bottom:100%;
+
+}
+
+.form{
+	width:80%;
+	margin: 0 auto;
+
+	input{
+		float: right;
+		width: 45%;
+		vertical-align: top;
+		margin-top: 20px;
+	}
+
+
+	p{
+		width: 45%;
+		float: left;
+		vertical-align: top;
+	}
+}
+
+.disc{
+	text-align:center;
+	margin-top:-20px;
+}
+
+.closebtn{
+	position:fixed;
+	color:white;
+	z-index:40000;
+	margin-left:140px;
+	display:none;
+}
+
+.openbtn{
+	position:fixed;
+	color:white;
+	z-index:40000;
+	margin-left:5px;
+	margin-top:0px;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+      overflow-y: auto;
+}
+
+
+
+.sidebar a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.fade {
+    transition: margin-left 0.5s;
+  
+}
+
+
+.in-menu2 {
+	width:80%;
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	padding-top:20px;
+
+	h1{
+		color: white;
+		text-transform: uppercase;
+font-family: din-condensed-bold;
+		font-size: 32px;
+		text-align: center;
+	}
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.large-beer{
+	margin-top:-100px;
+	max-width:150px !important;
+	width:50%;
+	position:relative;
+	margin: 0 auto;
+	text-align:center;
+}
+
+
+.overlay-bottom{
+	display:none;
+}
+
+
+
+.span-link {
+  content: '';
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #3366FF;
+  transition: 0.4s;
+   -webkit-transition:0.4s;
+}
+
+.span-link:hover{
+  width: 100%;
 }
 
 
@@ -99,9 +261,24 @@ height:1px;
 }
 
 
+#toggle{
+	position: absolute;
+    top: 120px;
+    z-index: 30000;
+    margin-top: -115px;
+    background: url("../conquest-img/close.png") no-repeat;
+    background-size: 100 100;
+    z-index: 20000;
+    height: 50px;
+    width: 75px;
+    border:none;
 
+}
 
-
+#toggle.chicken{
+	
+	background: url("../conquest-img/hamburger.png") no-repeat;
+}
 
 
 .medusa-header.first{
@@ -166,15 +343,15 @@ height:1px;
 		max-width: 100px;
 	}
 		.top{
-		width: 30%;
+		width: 50%;
 		max-width: !important none;
 		margin-bottom: 10px;
 
 	}
 
 	.bottom{
-		width: 70%;
-		max-width:400px;
+		width: 90%;
+		max-width:500px;
 	}
 
 
@@ -206,7 +383,7 @@ p{
 .overlay-bottom{
 
 
-display: block;
+display:none;
 position: absolute;
 top: 0;
 left: 0;
@@ -239,7 +416,7 @@ opacity:0;
 }
 
 
-
+/*
 
 #slider {
     position: absolute;
@@ -375,8 +552,7 @@ text-align:center;
 }
 
 
-
-
+\*****/
 
 
 
@@ -399,36 +575,42 @@ font-size: 1.5em;
 
 
 #menu2{
-	position:absolute;
+	position:relative;
 background: url('../conquest-img/bar.jpeg') no-repeat ;
 	
-	height:100%;
+	height:auto;
 	left:0;
 	right:0;
 	bottom:0;
-	width:78%;
-	margin-left:200px;
+	width:100%;
+	margin-top:-100px;
+
 	background-size:cover;
 
 
 	.in-menu{
 			z-index: 1000;
-    position: absolute;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding-top:100px;
 	}
 
 
 	p{
 	
     color: white;
-    font-family: din-condensed;
+   font-family: din-condensed-regular;
     font-size: 1.5em;
 
 	}
 
 	h3{
 		  color: white;
-    font-family: din-condensed;
+ font-family: din-condensed-bold;
     font-size: 3.0em;
+    text-align: center;
+    text-transform: uppercase;
 	}
 
 
@@ -438,19 +620,19 @@ background: url('../conquest-img/bar.jpeg') no-repeat ;
 
 background: url('../conquest-img/bar.jpeg') no-repeat ;
 	width:100%;
-	height:100%;
+	height:auto;
 	left:0;
 	right:0;
 	bottom:0;
 	background-size:cover;
-    margin-top: -20px;
-    position:absolute;
-width:78%;
-	margin-left:200px;
+    margin-top: -100px;
+    position:relative;
+
+
 
 		.in-menu2{
 			z-index: 1000;
-    position: absolute;
+    position: relative;
 	}
 
     	p{
@@ -520,10 +702,14 @@ width:78%;
 	width:80%;
 	margin: 0 auto;
 	text-align:center;
+	background: url('../conquest-img/bggray.png') no-repeat center center;
+	background-size:cover;
+	margin-top:50px;
+	margin-bottom:50px;
 
 	h3{
 		font-size: 36px;
-		font-family: din-condensed-Black;
+		font-family: din-condensed-bold;
 		font-weight: 700;
 		border-bottom:5px solid;
 		width:70%;
@@ -614,26 +800,34 @@ margin-top:350px;
 width:100%;
 
 }
-#beers-season p{
-color:black;
 
 
-
-}
 #beers-season{  
 padding-top:20px;
 width:100%;
 height:100%;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
+    height: auto;
 
 background-size:cover;
 margin-top:-30px;
 background-color:white;
 background: url('../conquest-img/bggray.png') no-repeat center center;
+
+h4{
+	color:black;
+	font-family:'din-condensed-bold';
+	font-size:24px;
+	margin-top:-10px;
+
+}
+
+
+
 }
 .beer-rack img{
 position:relative;
@@ -672,7 +866,7 @@ left: 0;
 right: 0;
 bottom: 0;
 background: #262626;
-opacity: 0.5;
+opacity: 0.8;
 width:100%;
 z-index:100;
 
@@ -913,12 +1107,15 @@ position:absolute;
 z-index:2000;
 float:left;
 position:fixed;
-width:260px;
+width:0px;
 height:100%;
 max-width:280px;
 text-align:center;
 left:0;
 top:0;
+width:0px;
+overflow-y: hidden; // hide vertical
+overflow-x: hidden; // hide horizontal
 a{
 
 font-family: din-condensed;
@@ -959,14 +1156,15 @@ text-align:center;
 .hist10{
 	position:absolute;
 	z-index:1000;
-	margin-top: -220px;
-    width: 35%;
+	margin-top: -230px;
+    width: 60%;
     margin-left: 100px;
+    z-index: 30000;
 }
 
 
 .overlay3 {
-display: block;
+display: none;
 position: absolute;
 top: 0;
 left: 0;
@@ -979,7 +1177,7 @@ width: 100%;
  
 }
 .overlay {
-display: block;
+display: none;
 position: inherit;
 top: 0;
 left: 0;
@@ -987,6 +1185,7 @@ right: 0;
 bottom: 0;
 background: #262626;
 opacity: 0.5;
+z-index:20000;
 
 }
 
@@ -995,8 +1194,9 @@ opacity: 0.5;
 
 
 
+
 .overlay2{
-display: block;
+display: none;
 position: absolute;
 top: 0;
 left: 0;
@@ -1007,10 +1207,63 @@ opacity: 0.5;
  
 }
 
+.beer-page-right{
+	text-align:center;
+}
+
+.box-left{
+	width:33%;
+	float:left;
+	border-right:1px solid black;
+}
+
+
+
+
+
+
 @media screen and (min-width: 650px) {
 
+.large-beer{
+	margin-top:-100px;
+	max-width:150px !important;
+	width:50%;
+	position:relative;
+	margin: 0 auto;
+	text-align:center;
+	margin-left:-150px;
+}
+
+
+
+.overlay5{
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: #262626;
+opacity: 0.5;
+z-index:2000;
+ 
+}
+
+
+
+
+.hist10{
+	position:absolute;
+	z-index:1000;
+	margin-top: -220px;
+    width: 35%;
+    margin-left: 100px;
+}
+
+
+
 .my-slider{
-	height:500px;
+	height:1200px;
 
 }
 .unslider-arrow.next{
@@ -1035,8 +1288,10 @@ opacity: 0.5;
 
 
 #deralt{
-	width:80%;
-	margin-left:200px;
+	width:100%;
+	margin-left:0px;
+	position:!important relative;
+	height:auto;
 
 	img{
 		max-width: 100px;
@@ -1053,11 +1308,20 @@ opacity: 0.5;
 .beer-page-left{
 	width:45%;
 	float:left;
+
+	p{
+
+font-family: 'Open Sans', sans-serif;
+font-size:1.5em;
+line-height:1.7em;
+
+	}
 }
 
 .beer-page-right{
 	width:45%;
 	float:right;
+	text-align:center;
 
 	img{
 		width: 10%;
@@ -1504,7 +1768,7 @@ display:block;
 background-color:black;
 float:left;
 position:fixed;
-width:200px;
+width:0px;
 height:100%;
 max-width:280px;
 text-align:center;
@@ -1523,6 +1787,12 @@ color: #ddd7d7;
     letter-spacing: 2px;
 
 }
+
+
+
+
+
+
 ul{
 
 width:100%;
@@ -1576,7 +1846,7 @@ right:0;
 bottom:0;
 top:0;
 left:0%;
-margin-left:200px;
+
 }
 .div4{
 background-color:tan;
@@ -1591,7 +1861,7 @@ padding-bottom:0%;
 margin-top: 0px;
 }
 .div5{
-background-color:gray;
+
 text-align: center;
 vertical-align:middle;
 bottom:0;
@@ -1618,6 +1888,18 @@ margin-top: 50%;
 }
 }/*end of 600 */
 @media screen and (min-width: 900px) {
+
+.large-beer{
+	margin-top:-100px;
+	max-width:250px !important;
+	width:50%;
+	position:relative;
+	margin: 0 auto;
+	text-align:center;
+	margin-left:-150px;
+}
+
+
 
 #slider{
 	width:250px;
@@ -1673,8 +1955,8 @@ margin-top: 0px;
 
 
 #deralt{
-	width:80%;
-	margin-left:260px;
+	width:100%;
+	margin-left:0px;
 
 	img{
 		max-width: 200px;
@@ -1705,30 +1987,29 @@ margin-left:260px;
 }
 
 #menu2{
-	position:absolute;
+	position:relative;
 	background: url('../conquest-img/bar.jpeg') no-repeat ;
 	width:100%;
-	height:100%;
+	height:auto;
 	left:0;
 	right:0;
 	bottom:0;
-	width:82%;
-	margin-left:260px;
+	width:100%;
+
 	background-size:cover;
 
 
 }
 
 #menu3{
-	position:absolute;
+	position:relative;
 	
 	width:100%;
-	height:100%;
+	height:auto;
 	left:0;
 	right:0;
 	bottom:0;
-	width:82%;
-	margin-left:260px;
+
 	background-size:cover;
 
 
@@ -1736,7 +2017,7 @@ margin-left:260px;
 
 
 .sidebar{
-	width:260px;
+	width:0px;
 }
 
 .inner-content{
@@ -1750,7 +2031,7 @@ right:0;
 bottom:0;
 top:0;
 left:0%;
-margin-left:260px;
+
 }
 
 

@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/conquest.css">
     <link rel="stylesheet" href="css/bootstrap-conquest.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,800italic' rel='stylesheet' type='text/css'>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -31,11 +31,17 @@
   </head>
   <body>
     <div class ="holdme clearfix">
-      <button id="toggle" class ="toggle"style="position:absolute; top: 120px;">Toggle</button>
-      <a id="toggle" class ="toggle" href="#"><span></span></a>
+      <button id="toggle" class ="toggle"style="position:absolute; top: 120px;"></button>
+     <button id ="reed2">Reed</button>
+
+
       <div class ="sidebar">
         <div class ="top-box clearfix">
-          
+
+      
+
+
+       </div>
           
         </div>
         
@@ -54,7 +60,9 @@
             <ul class="nav nav-tabs ">
               <li class="active"><a data-toggle="tab" href=".row">Home</a></li>
               <li><a data-toggle="tab" href="#beers-season">Beers</a></li>
+              <span class="span-link"></span>
               <li><a data-toggle="tab" href="#menu2">About Us</a></li>
+             
               <li><a data-toggle="tab" href="#menu3">Find Us</a></li>
             </ul>
            
@@ -69,16 +77,16 @@
                                   var isOpen = $slider.classList.contains('slide-in');
                                   $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
                                   
+
+                                  var $toggle = document.getElementById('toggle');
                                   $toggle.setAttribute('class', isOpen ? 'chicken' : 'nav-close');
-                                  var $tabs = document.getElementById('overlay-blur');
-                                  $tabs.setAttribute('class', isOpen ? 'chicken' : 'blurred');
+
+
                                   
                                   
                                   });</script>
-                                  <script type="text/javascript">document.querySelector( "#toggle" )
-                                  .addEventListener( "click", function() {
-                                  this.classList.toggle( "active" );
-                                  });</script>
+
+                                 
           <div id ="blur-me" class="tab-content reed">
             <span class="overlay-bottom"></span>
             <div class = " tab-pane fade in active row inner-content clearfix">
@@ -86,12 +94,12 @@
                 <span class="overlay"></span>
                 <img class =" my-knight img-responsive" img src="conquest-img/walking.jpeg">
                 
-                <img class ="hist10"img src="conquest-img/history9.png">
+                <img class ="hist10"img src="conquest-img/hist11.png">
                 </div> <!--end of div2 -->
                 <div class =" row-sm-height div3">
                   
                   <div class ="div4">
-                    <img class ="img-responsive beers-pic" img src="conquest-img/conquer-night4.png">
+                    <img class ="img-responsive beers-pic" img src="conquest-img/conquer5.png">
                     <img class ="hist9"img src="conquest-img/nighttime.jpeg">
                     <div class ="button-text">
                       <p>Follow us on social media</p>
@@ -150,6 +158,52 @@
           <div id= "beers-season" class=" clearfix tab-pane fade">
             
             <div class ="beer-box clearfix">
+              
+              <h3>Seasonal Beers </h3>
+              <div class ="beer-left">
+                <ul class="nav nav-tabs" role="tablist">
+                  
+                  <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                  
+                  
+                  
+                  </div> <!--end of beer-left -->
+                  <div class ="beer-middle">
+                    <li role="presentation"><a href="#artemis" aria-controls="artemis" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                    
+                    
+                    </div> <!--end of beer-left -->
+                    <div class ="beer-right">
+                      <li role="presentation"><a href="#beers-year" aria-controls="beers-year" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                      
+                      </div> <!--end of beer-left -->
+                      
+                      </div> <!--end of beer-box -->
+
+                       <div class ="beer-box clearfix">
+              
+              <h3>Seasonal Beers </h3>
+              <div class ="beer-left">
+                <ul class="nav nav-tabs" role="tablist">
+                  
+                  <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                  
+                  
+                  
+                  </div> <!--end of beer-left -->
+                  <div class ="beer-middle">
+                    <li role="presentation"><a href="#artemis" aria-controls="artemis" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                    
+                    
+                    </div> <!--end of beer-left -->
+                    <div class ="beer-right">
+                      <li role="presentation"><a href="#beers-year" aria-controls="beers-year" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                      
+                      </div> <!--end of beer-left -->
+                      
+                      </div> <!--end of beer-box -->
+
+                       <div class ="beer-box clearfix">
               
               <h3>Seasonal Beers </h3>
               <div class ="beer-left">
@@ -248,7 +302,7 @@
 
                       <div class ="beer-page clearfix">
                           <div class ="beer-page-right">
-                              <img src="conquest-img/large-artemis.png">
+                              <img class ="large-beer" img src="conquest-img/large-artemis.png">
                             </div> <!--end of beer-page-right -->
                             <div class ="beer-page-left">  
                             <p>
@@ -284,6 +338,9 @@
 
 
                       <div class ="beer-page clearfix">
+                         <div class ="beer-page-right">
+                              <img src="conquest-img/large-medusa.png">
+                            </div> <!--end of beer-page-right -->
                             <div class ="beer-page-left">  
                             <p>
                               Medusa. That evil creature with snakes instead of hair, slithering towards you with lithe malice, ever wanting to crush you in her cold embrace. Sweet and silky, the seductress uses the dark arts of chocolate malt and roasted barley to give your palate a ravishing experience that you will not soon forget.
@@ -299,9 +356,7 @@
                                   </div> <!--beer-bottom -->
 
                             </div> <!--end of beer-page-left -->
-                             <div class ="beer-page-right">
-                              <img src="conquest-img/large-medusa.png">
-                            </div> <!--end of beer-page-right -->
+                            
                           </div> <!--end of beer-page -->
                     </li>
                            <li>
@@ -322,6 +377,9 @@
 
 
                       <div class ="beer-page clearfix">
+                         <div class ="beer-page-right">
+                              <img src="conquest-img/large-naps.png">
+                            </div> <!--end of beer-page-right -->
                             <div class ="beer-page-left">  
                             <p>
                               Medusa. That evil creature with snakes instead of hair, slithering towards you with lithe malice, ever wanting to crush you in her cold embrace. Sweet and silky, the seductress uses the dark arts of chocolate malt and roasted barley to give your palate a ravishing experience that you will not soon forget.
@@ -337,9 +395,7 @@
                                   </div> <!--beer-bottom -->
 
                             </div> <!--end of beer-page-left -->
-                             <div class ="beer-page-right">
-                              <img src="conquest-img/large-naps.png">
-                            </div> <!--end of beer-page-right -->
+                            
                           </div> <!--end of beer-page -->
                     </li>
                            <li>
@@ -358,6 +414,9 @@
 
 
                       <div class ="beer-page clearfix">
+                          <div class ="beer-page-right">
+                              <img src="conquest-img/large-brutus.png">
+                            </div> <!--end of beer-page-right -->
                             <div class ="beer-page-left">  
                             <p>
                               Medusa. That evil creature with snakes instead of hair, slithering towards you with lithe malice, ever wanting to crush you in her cold embrace. Sweet and silky, the seductress uses the dark arts of chocolate malt and roasted barley to give your palate a ravishing experience that you will not soon forget.
@@ -373,9 +432,7 @@
                                   </div> <!--beer-bottom -->
 
                             </div> <!--end of beer-page-left -->
-                             <div class ="beer-page-right">
-                              <img src="conquest-img/large-brutus.png">
-                            </div> <!--end of beer-page-right -->
+                           
                           </div> <!--end of beer-page -->
                     </li>
                            <li>
