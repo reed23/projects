@@ -30,15 +30,9 @@
 }
 @font-face {
   font-family: din-condensed;
-  src: url("../fonts/din-pro-cond/DINPRO-Cond.otf");
+  src: url("../fonts/din-pro-cond/DINPro-Cond.otf");
 }
 /* line 41, ../scss/conquest.scss */
-<<<<<<< HEAD
-
-
-
-
-=======
 .beer-box:after {
   content: "";
   display: inline-block;
@@ -56,7 +50,6 @@
 }
 
 /* line 62, ../scss/conquest.scss */
->>>>>>> 88a045ef4c1cd96ff744dd84d3a2f88637806de9
 .overlay {
   display: none;
 }
@@ -464,7 +457,7 @@ p {
 }
 /* line 488, ../scss/conquest.scss */
 .slide-in a {
-  font-family: din-condensed;
+  font-family: din-condensed-bold;
   color: #ddd7d7;
   text-transform: uppercase;
   line-height: 44px;
