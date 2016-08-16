@@ -7,6 +7,10 @@
 */
 
 /* Reset */
+	#footer-wrapper {
+				padding: 5% 0 5% 0;
+					background-color:#58595b;
+			}
 
 
 .special-list a{
@@ -122,6 +126,11 @@ h5{
 	.container {
 		width: 960px;
 	}
+	#footer-wrapper {
+				padding: 5% 0 5% 0;
+					background-color:#58595b!important;
+			}
+
 
 	@media screen and (min-width: 737px) {
 
