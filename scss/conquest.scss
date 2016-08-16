@@ -38,6 +38,27 @@ src: url('../fonts/din-pro-cond/DINPro-Cond.otf');
 
 }
 
+.beer-box:after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
+
+
+ul {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+li { float: left; }
+
+
+
+}
+
+
+
+
 .overlay{
 	display:none;
 }
@@ -148,7 +169,7 @@ src: url('../fonts/din-pro-cond/DINPro-Cond.otf');
 
 .sidebar {
     height: 100%;
-    width: 0;
+    width: 200;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -449,16 +470,6 @@ opacity:0;
 }
 
 
-/*
-
-#slider {
-    position: absolute;
-    width: 200px;
-    height: 100%;
-    transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-
-}
 
 .slide-in {
     animation: slide-in 0.5s forwards;
@@ -585,7 +596,7 @@ text-align:center;
 }
 
 
-\*****/
+
 
 
 
@@ -744,8 +755,9 @@ background: url('../conquest-img/bar.jpeg') no-repeat ;
 		font-size: 36px;
 		font-family: din-condensed-bold;
 		font-weight: 700;
-		border-bottom:5px solid;
-		width:70%;
+		width: 100%;
+		text-align: center;
+		
 		margin: 0 auto;
 		margin-bottom: 30px;
 		margin-top: 30px;
@@ -806,6 +818,7 @@ background: url('../conquest-img/bar.jpeg') no-repeat ;
 
 .top-box{
 	background-color:black;
+	margin-top:-50px;
 }
 
 .second-nav {
@@ -989,7 +1002,7 @@ margin-left:40px;
 }
 .tab-content{
 float:none;
-width:100;
+width:82%;
 
 }
 #menu2{
@@ -1186,12 +1199,15 @@ text-align:center;
 }
 
 
+
+
+
 .hist10{
 	position:absolute;
 	z-index:30000;
 	margin-top: -230px;
-    width: 60%;
-    margin-left: 100px;
+    width: 80%;
+    margin-left: 70px;
     z-index: 30000;
 }
 
@@ -1313,7 +1329,7 @@ z-index:2000;
 	position:absolute;
 	z-index:30000;
 	margin-top: -220px;
-    width: 35%;
+    width: 75%;
     margin-left: 100px;
 }
 
@@ -1556,7 +1572,7 @@ margin: 0 auto;
 
 .beer-left{
 	width:33%;
-	float:left;
+	float:right;
 
 	img{
 		width: 100%;
@@ -1566,7 +1582,7 @@ margin: 0 auto;
 
 .beer-middle{
 	width:33%;
-	float:left;
+	float:right;
 
 	img{
 		width: 100%;
@@ -1597,12 +1613,13 @@ margin: 0 auto;
 .tab-content{
 float:right;
 
-    width: 100%;
+    width: 82%;
     position: absolute;
     right: 0;
     left: 0;
     top: 0;
     bottom: 0;
+    margin-left: 250px
 }
 
 .button-text{
@@ -1832,7 +1849,7 @@ display:block;
 background-color:black;
 float:left;
 position:fixed;
-width:0px;
+width:250px;
 height:100%;
 max-width:280px;
 text-align:center;
@@ -2081,7 +2098,7 @@ margin-left:260px;
 
 
 .sidebar{
-	width:0px;
+	width:250px;
 }
 
 .inner-content{

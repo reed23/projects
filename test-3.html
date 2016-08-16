@@ -16,6 +16,7 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,800italic' rel='stylesheet' type='text/css'>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="css/storelocator.css" />
 
 
     
@@ -27,29 +28,17 @@
 
 
     
-    
   </head>
   <body>
     <div class ="holdme clearfix">
-      <button id="toggle" class ="toggle"style="position:absolute; top: 120px;"></button>
-     <button id ="reed2">Reed</button>
-
-
-      <div class ="sidebar">
-        <div class ="top-box clearfix">
+   
+      <span id ="openbtn" span class ="openbtn" span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    <a id ="closebtn" a href="javascript:void(0)" a style ="font-size:30px;cursor:pointer"class="closebtn" onclick="closeNav()">close &times;</a>
 
       
-
-
-       </div>
-          
-        </div>
-        
-        <script type="text/javascript"></script>
-        
         
         </div> <!--div1 -->
-        <div id ="slider"  class ="sidebar slide-in">
+        <div id ="sidebar"  class ="sidebar slide-in">
           <div class ="top-box clearfix">
             
             <img src="conquest-img/logotry4.png">
@@ -71,20 +60,7 @@
           
           
           </div> <!--div1 -->
-                                  <script type="text/javascript">var $slider = document.getElementById('slider');
-                                  var $toggle = document.getElementById('toggle');
-                                  $toggle.addEventListener('click', function() {
-                                  var isOpen = $slider.classList.contains('slide-in');
-                                  $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
-                                  
-
-                                  var $toggle = document.getElementById('toggle');
-                                  $toggle.setAttribute('class', isOpen ? 'chicken' : 'nav-close');
-
-
-                                  
-                                  
-                                  });</script>
+                              
 
                                  
           <div id ="blur-me" class="tab-content reed">
@@ -102,8 +78,13 @@
                     <img class ="img-responsive beers-pic" img src="conquest-img/conquer5.png">
                     <img class ="hist9"img src="conquest-img/nighttime.jpeg">
                     <div class ="button-text">
-                      <p>Follow us on social media</p>
-                      <button>Follow Us </button>
+                      <p>
+
+                  CHECK OUR SOCIAL MEDIA YOU 
+
+                  SEE OUR LATEST CONQUEST </p>
+                    
+                      <button class ="ghost">Follow Us </button>
                     </div>
                     
                     
@@ -112,14 +93,22 @@
 <div class ="div5">
   <div class ="div6">
     <img class ="img-responsive" img src="conquest-img/beer-pic.jpeg">
-    <img class ="img-responsive findus" img src="conquest-img/allbeers.png">
+    <img class ="img-responsive findus" img src="conquest-img/taste.png">
+    <div class ="six-box"> 
+    <p>Come for a tour to 947 S. Stadium Rd., Bay 1, Columbia, SC and grab a flight,
+a growler or a pint:</p>
+<button class ="ghost">Learn More</button>
+</div>
     <span class="overlay5"></span>
     </div> <!--end of div 6 -->
     <div class ="div7">
       <span class="overlay2"></span>
       <img class ="img-responsive" img src="conquest-img/beer-drink.jpeg">
-      <img class ="img-responsive taste " img src="conquest-img/tastingroom.png">
-      
+      <img class ="img-responsive taste " img src="conquest-img/ourbeers.png">
+      <div class ="seven-box">  
+      <p>TRY OUR BEERS TODAY AND SEE WHAT YOU’VE BEEN MISSING</p>
+      <button class ="ghost">Learn More</button>
+      </div>
       </div> <!--end of div 7-->
       </div> <!--end of div5 -->
       
@@ -139,42 +128,61 @@
             <p>Conquest Brewing Company is the embodiment of an idea. The idea that beer should be more than a beverage, more than an alcohol delivery system. The idea that the long, painful history of mankind has many common threads woven throughout it, and one of these threads is beer. While it is arguably not the most important thread of civilization, it is one of the chief building blocks thereof.
               We at Conquest Brewing Company continue the proud tradition of so many saints and vagabonds, lords and serfs before us: the tradition of crafting, and enjoying, the most complex and inviting, the most approachable and esoteric beverages the world has ever known.
               Our beers pay homage to bygone times of war and peace, to tales both fantastic and dreadfully real. We believe that the onward march of history will show that in the end, honor is what makes a man, and taste is what makes a beer– not marketing, not hype. Taste. And we do not intend to be lost to the annals of history.
+              <strong>  
               Conquest.
-              History is written by the Victor.
+              History is written by the Victor.</strong>
             Join Us.</p>
             </div> <!--end od in-menu -->
+            <div class ="img-block">
+              <img src="conquest-img/building.jpg">
+
+
+
+
+            </div> <!--end of img-block-->
+            <div class="space"></div>
+              <div class="space"></div>
+
+        
           </div>
           <div id="menu3" class="tab-pane fade">
             <span class="overlay4"></span>
             <div class ="in-menu2">
-              <p>Conquest Brewing Company is the embodiment of an idea. The idea that beer should be more than a beverage, more than an alcohol delivery system. The idea that the long, painful history of mankind has many common threads woven throughout it, and one of these threads is beer. While it is arguably not the most important thread of civilization, it is one of the chief building blocks thereof.
-                We at Conquest Brewing Company continue the proud tradition of so many saints and vagabonds, lords and serfs before us: the tradition of crafting, and enjoying, the most complex and inviting, the most approachable and esoteric beverages the world has ever known.
-                Our beers pay homage to bygone times of war and peace, to tales both fantastic and dreadfully real. We believe that the onward march of history will show that in the end, honor is what makes a man, and taste is what makes a beer– not marketing, not hype. Taste. And we do not intend to be lost to the annals of history.
-                Conquest.
-                History is written by the Victor.
-              Join Us.</p>
-            </div>
+              <h1>Find Our Beers in A Store Near You</h1>
+              <p class="disc">(Currently only available in SC)</p>
+              
+             <div class ="form clearfix"> 
+              <p>Enter zip Code city or state to find beer near you</p>
+              <input type="text" name="fname"><br>
+              </div>
+            <div id="gmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.8824290039315!2d-81.02731638478711!3d33.969861280628386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bae5a2c7a4d5%3A0x6107e7f03eae0181!2sConquest+Brewing+Company!5e0!3m2!1sen!2sus!4v1471290256445" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+            <div class="space"></div>
+
+        
           </div>
+        </div>
+
           <div id= "beers-season" class=" clearfix tab-pane fade">
             
             <div class ="beer-box clearfix">
               
               <h3>Seasonal Beers </h3>
+              <div class ="line"></div>
               <div class ="beer-left">
                 <ul class="nav nav-tabs" role="tablist">
                   
-                  <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                  <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"><h4>Artemis Blonde</h4></a></li>
                   
                   
                   
                   </div> <!--end of beer-left -->
                   <div class ="beer-middle">
-                    <li role="presentation"><a href="#artemis" aria-controls="artemis" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                    <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"><h4>Sacred Heart</h4></a></li>
                     
                     
                     </div> <!--end of beer-left -->
                     <div class ="beer-right">
-                      <li role="presentation"><a href="#beers-year" aria-controls="beers-year" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                      <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-medusa.png"><h4>Medusa Stout</h4></a></li>
                       
                       </div> <!--end of beer-left -->
                       
@@ -182,22 +190,22 @@
 
                        <div class ="beer-box clearfix">
               
-              <h3>Seasonal Beers </h3>
+              <h3>Year Round Beers</h3>
               <div class ="beer-left">
-                <ul class="nav nav-tabs" role="tablist">
+           
                   
-                  <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                  <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-naps.png"><h4>Old Naps</h4></a></li>
                   
                   
                   
                   </div> <!--end of beer-left -->
                   <div class ="beer-middle">
-                    <li role="presentation"><a href="#artemis" aria-controls="artemis" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                    <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-frederick.png"><h4>Frederick</h4></a></li>
                     
                     
                     </div> <!--end of beer-left -->
                     <div class ="beer-right">
-                      <li role="presentation"><a href="#beers-year" aria-controls="beers-year" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                      <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-seas.png"><h4>Seven Seas</h4></a></li>
                       
                       </div> <!--end of beer-left -->
                       
@@ -205,22 +213,23 @@
 
                        <div class ="beer-box clearfix">
               
-              <h3>Seasonal Beers </h3>
+              <h3>Imperial Beers</h3>
+              <div class ="line"></div>
               <div class ="beer-left">
                 <ul class="nav nav-tabs" role="tablist">
                   
-                  <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                  <li role="presentation"><a href="#deralt" aria-controls="deralt" role="tab" data-toggle="tab"> <img src="conquest-img/beer-deralt.png"><h4>Deralt</h4></a></li>
                   
                   
                   
                   </div> <!--end of beer-left -->
                   <div class ="beer-middle">
-                    <li role="presentation"><a href="#artemis" aria-controls="artemis" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                    <li role="presentation"><a href="#artemis" aria-controls="artemis" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"><h4>Sacred Heart</h4></a></li>
                     
                     
                     </div> <!--end of beer-left -->
                     <div class ="beer-right">
-                      <li role="presentation"><a href="#beers-year" aria-controls="beers-year" role="tab" data-toggle="tab"> <img src="conquest-img/beer-heart.png"></a></li>
+                      <li role="presentation"><a href="#beers-year" aria-controls="beers-year" role="tab" data-toggle="tab"> <img src="conquest-img/beer-harlequin.png"><h4>Harlequin</h4></a></li>
                       
                       </div> <!--end of beer-left -->
                       
@@ -650,38 +659,14 @@
 
 
 
-
-
                     </div> <!--end of deralt -->
                  
 
 
 
 
-                  
-
-                    <div id= "frederick" class="tab-pane fade">
-                      <p>Imperials</p>
-                    </div>
-                    <div id= "harley" class="tab-pane fade">
-                      <p>Imperials</p>
-                    </div>
-                    <div id= "heart" class="tab-pane fade">
-                      <p>Imperials</p>
-                    </div>
-                    <div id= "brutus" class="tab-pane fade">
-                      <p>Imperials</p>
-                    </div>
-                    <div id= "map" class="tab-pane fade">
-                      <p>Imperials</p>
-                    </div>
-                    <div id= "seas" class="tab-pane fade">
-                      <p>Imperials</p>
-                    </div>
-                    <div id="menu3" class="tab-pane fade">
-                      <h3>Menu 3</h3>
-                      <p>Some content in menu 2.</p>
-                    </div>
+                 
+                 
                     </div> <!--end of content container for holding tabs -->
                     </div> <!--end of holdme -->
 
@@ -694,7 +679,28 @@
 
     });
   </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+
+    <script>
+function openNav() {
+    document.getElementById("sidebar").style.width = "250px";
+    document.getElementById("blur-me").style.marginLeft = "250px";
+     document.getElementById("blur-me").style.width= "82%";
+
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.getElementById("closebtn").style.display= "block";
+       document.getElementById("openbtn").style.display= "none";
+}
+
+function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("blur-me").style.marginLeft= "0px";
+      document.getElementById("blur-me").style.width= "100%";
+          document.getElementById("closebtn").style.display= "none";
+
+}
+</script>
 
                                           
                     <script src="node_modules/jquery/dist/jquery.min.js"></script>
