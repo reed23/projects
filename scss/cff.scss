@@ -1,0 +1,331 @@
+/*font-family: 'Roboto Condensed', sans-serif; */
+/*font-family: 'Oswald', sans-serif; */
+
+
+.section.img-wrap{
+	margin-top:-50px;
+}
+
+.nav{
+width:80%;
+margin: 0 auto;
+ul{
+float: right;
+width: 100%;
+display: table-cell;
+margin-top: 10px;
+margin-bottom: 25px
+}
+li{
+list-style-type:none;
+float:left;
+margin-right:10px;
+}
+a{
+text-decoration: none;
+color: black;
+font-family: 'Roboto Condensed', sans-serif;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 16px;
+}
+img{
+float: left;
+width: 10%;
+max-width: 200px;
+height: 100%;
+display: table-cell;
+line-height: 0;
+}
+}
+
+#restofheader{
+	display:none;
+}
+
+.col div{
+float:none;
+width:100%;
+margin-top:70px;
+img{
+width: 80%;
+margin-bottom: 30px;
+}
+}
+
+#logo {
+display: table-cell;
+line-height: 0;
+width: 15%;
+background-color:black;
+max-width: 10px;
+max-height: 50px;
+}
+#logo img {
+width: 100%;
+height: auto;
+max-height: 40px;
+}
+
+header{
+max-height:60px;
+background-color:white;
+
+
+
+}
+.img-wrap{
+background-size:contain;
+background: url("../conquest-img/kidtry2.png") no-repeat center center;
+height:auto;
+width: 100%;
+right:0;
+bottom:0;
+top:0;
+min-height:600px;
+margin-top:-20px;
+border:outset;
+margin-top:-50px;
+
+img{
+width: 100%;
+
+}
+button{
+text-align: center;
+width: 50%;
+font-family: 'Roboto Condensed', sans-serif;
+text-transform: uppercase;
+background-color:transparent;
+color: white;
+border:1px solid white;
+}
+}
+
+
+.img-wrap button:hover{
+background-color:white;
+color:black;
+}
+
+.img-color{
+background-color:gray;
+p{
+color:white;
+line-height: 31px;
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: 500;
+font-size: 22px;
+}
+h1{
+font-family: 'Oswald', sans-serif;
+font-size: 38px;
+line-height: 36px;
+font-weight: 500;
+color: white;
+text-transform: uppercase;
+margin-top: 0px;
+}
+}
+
+
+.span_2_of_2 {
+width: 100%;
+}
+.span_1_of_2 {
+width: 48%;
+}
+
+.prog{
+h1{
+font-family: 'Oswald', sans-serif;
+font-size: 22px;
+line-height: 26px;
+font-weight: 500;
+}
+p{
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+img{
+width: 100%;
+}
+}
+
+/*  SECTIONS  */
+.section {
+clear: both;
+padding: 0px;
+margin: 0px;
+}
+/*  COLUMN SETUP  */
+.col {
+display: block;
+float:left;
+margin: 1% 0 1% 4.0%;
+}
+.col:first-child { margin-left: 0; }
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 65.33%; }
+.span_1_of_3 { width: 30.66%; }
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+.col {  margin: 1% 0 1% 0%; }
+.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+.row2{
+padding:2em;
+}
+.row1{
+padding:2em;
+}
+@media (min-width: 650px) {
+
+
+.section.img-wrap{
+	margin-top:-0px;
+}
+
+
+
+#logo {
+display: table-cell;
+line-height: 0;
+width: 15%;
+background-color:black;
+max-width: 10px;
+max-height: 50px;
+}
+#logo img {
+width: 100%;
+height: auto;
+max-height: 40px;
+}
+#restofheader {
+display: table-cell;
+vertical-align: middle;
+text-align: left;
+padding-left: 130px;
+}
+.nav{
+width:80%;
+margin: 0 auto;
+ul{
+float: right;
+width: 100%;
+display: table-cell;
+margin-top: 10px;
+margin-bottom: 25px
+}
+li{
+list-style-type:none;
+float:left;
+margin-right:10px;
+}
+a{
+text-decoration: none;
+color: black;
+font-family: 'Roboto Condensed', sans-serif;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 16px;
+}
+img{
+float: left;
+width: 10%;
+max-width: 200px;
+height: 100%;
+display: table-cell;
+line-height: 0;
+}
+}
+.img-wrap{
+background-size:cover;
+background: url("../conquest-img/kidtry2.png") no-repeat center center;
+height:auto;
+width: 100%;
+right:0;
+bottom:0;
+top:0;
+min-height:500px;
+margin-top:-20px;
+border:outset;
+text-align:center;
+
+button{
+text-align: center;
+width: 50%;
+font-family: 'Roboto Condensed', sans-serif;
+text-transform: uppercase;
+background-color:transparent;
+color: white;
+border:1px solid white;
+}
+}
+
+} /*end of 680 */
+
+@media (min-width: 800px) {
+.row1{
+width: 80%;
+margin: 0 auto;
+}
+.row2{
+width: 80%;
+margin: 0 auto;
+}
+.col div{
+float:right;
+width:100%;
+margin-top:70px;
+img{
+width: 80%;
+margin-bottom: 30px;
+}
+}
+
+#restofheader {
+display: table-cell;
+vertical-align: middle;
+text-align: left;
+padding-left: 100px;
+}
+
+
+
+} /*end of 880 */
+
+@media (min-width: 1000px) {
+#restofheader {
+display: table-cell;
+vertical-align: middle;
+text-align: left;
+padding-left: 150px;
+}
+
+}
+
+
+
+@media (min-width: 1200px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
