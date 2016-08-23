@@ -403,23 +403,24 @@ footer li {
 
   /* line 392, ../scss/cff.scss */
   .img-color {
-    padding-top: 25px;
+    padding-top: 50px;
     margin-bottom: 25px;
+    padding-bottom: 50px;
   }
 
-  /* line 398, ../scss/cff.scss */
+  /* line 399, ../scss/cff.scss */
   .headerwrap {
     margin-top: 20px;
     width: 90%;
     margin: 10px auto;
   }
 
-  /* line 409, ../scss/cff.scss */
+  /* line 410, ../scss/cff.scss */
   .section.img-wrap {
     margin-top: -0px;
   }
 
-  /* line 416, ../scss/cff.scss */
+  /* line 417, ../scss/cff.scss */
   .img-wrap {
     background-size: cover;
     background: url("../conquest-img/kidtry6.png") no-repeat center center;
@@ -433,14 +434,14 @@ footer li {
     text-align: center;
   }
 
-  /* line 432, ../scss/cff.scss */
+  /* line 433, ../scss/cff.scss */
   .inside-wrap {
     width: 50%;
     margin-left: 50px;
     margin-top: 100px;
     padding: 1em;
   }
-  /* line 440, ../scss/cff.scss */
+  /* line 441, ../scss/cff.scss */
   .inside-wrap h1 {
     color: black;
     font-family: din-condensed-bold;
@@ -449,27 +450,27 @@ footer li {
     margin-top: 5px;
     text-transform: uppercase;
   }
-  /* line 449, ../scss/cff.scss */
+  /* line 450, ../scss/cff.scss */
   .inside-wrap p {
     color: black;
     font-family: din-condensed;
     font-size: 24px;
   }
-  /* line 454, ../scss/cff.scss */
+  /* line 455, ../scss/cff.scss */
   .inside-wrap .text-holder {
     margin-top: 0px;
   }
 
-  /* line 460, ../scss/cff.scss */
+  /* line 461, ../scss/cff.scss */
   .inside-bottom {
     text-align: center;
   }
-  /* line 465, ../scss/cff.scss */
+  /* line 466, ../scss/cff.scss */
   .inside-bottom div {
     margin-top: 0px;
     width: 50%;
   }
-  /* line 470, ../scss/cff.scss */
+  /* line 471, ../scss/cff.scss */
   .inside-bottom h1 {
     color: black;
     font-family: din-condensed-bold;
@@ -478,7 +479,7 @@ footer li {
     margin-top: 5px;
     text-transform: uppercase;
   }
-  /* line 478, ../scss/cff.scss */
+  /* line 479, ../scss/cff.scss */
   .inside-bottom p {
     color: black;
     font-family: din-condensed;
@@ -487,36 +488,36 @@ footer li {
 }
 /*end of 680 */
 @media (min-width: 800px) {
-  /* line 493, ../scss/cff.scss */
+  /* line 494, ../scss/cff.scss */
   .modal-content form {
     width: 75%;
     margin: 0 auto;
   }
 
-  /* line 499, ../scss/cff.scss */
+  /* line 500, ../scss/cff.scss */
   .namebox {
     clear: none !important;
     display: inline-block;
   }
-  /* line 503, ../scss/cff.scss */
+  /* line 504, ../scss/cff.scss */
   .namebox div {
     clear: none !important;
   }
 
-  /* line 508, ../scss/cff.scss */
+  /* line 509, ../scss/cff.scss */
   .mod-bottom {
     padding-bottom: 20px;
     width: 50%;
     margin: 0 auto;
   }
-  /* line 513, ../scss/cff.scss */
+  /* line 514, ../scss/cff.scss */
   .mod-bottom input {
     width: 100%;
     background-color: black;
     color: white;
     text-transform: uppercase;
   }
-  /* line 519, ../scss/cff.scss */
+  /* line 520, ../scss/cff.scss */
   .mod-bottom button {
     width: 100%;
     background-color: white;
@@ -524,72 +525,72 @@ footer li {
     text-transform: uppercase;
   }
 
-  /* line 529, ../scss/cff.scss */
+  /* line 530, ../scss/cff.scss */
   .mod-left {
     float: left;
     width: 45%;
   }
 
-  /* line 534, ../scss/cff.scss */
+  /* line 535, ../scss/cff.scss */
   .mod-right {
     float: right;
     width: 45%;
   }
 
-  /* line 539, ../scss/cff.scss */
+  /* line 540, ../scss/cff.scss */
   .nametext {
     width: 45%;
     float: left;
   }
-  /* line 543, ../scss/cff.scss */
+  /* line 544, ../scss/cff.scss */
   .nametext p {
     margin-top: -5px;
     margin-left: 45px;
   }
 
-  /* line 549, ../scss/cff.scss */
+  /* line 550, ../scss/cff.scss */
   .name {
     width: 45%;
     float: right;
   }
-  /* line 554, ../scss/cff.scss */
+  /* line 555, ../scss/cff.scss */
   .name input {
     width: 100%;
   }
 
-  /* line 561, ../scss/cff.scss */
+  /* line 562, ../scss/cff.scss */
   .donate {
     display: inline-block;
     margin-top: -30px;
   }
-  /* line 566, ../scss/cff.scss */
+  /* line 567, ../scss/cff.scss */
   .donate .box1 {
     margin-top: 30px !important;
   }
 
-  /* line 572, ../scss/cff.scss */
+  /* line 573, ../scss/cff.scss */
   .donate-left {
     width: 45%;
     float: left;
   }
 
-  /* line 577, ../scss/cff.scss */
+  /* line 578, ../scss/cff.scss */
   .radio {
     width: 45%;
     float: right;
     clear: none !important;
   }
 
-  /* line 590, ../scss/cff.scss */
+  /* line 591, ../scss/cff.scss */
   .secondul {
     display: block;
   }
-  /* line 593, ../scss/cff.scss */
+  /* line 594, ../scss/cff.scss */
   .secondul li {
     float: left;
     list-style-type: none;
   }
-  /* line 598, ../scss/cff.scss */
+  /* line 599, ../scss/cff.scss */
   .secondul a {
     color: black;
     margin-left: 10px;
@@ -600,12 +601,12 @@ footer li {
     letter-spacing: 2px;
   }
 
-  /* line 612, ../scss/cff.scss */
+  /* line 613, ../scss/cff.scss */
   #trigger-overlay {
     display: none;
   }
 
-  /* line 618, ../scss/cff.scss */
+  /* line 619, ../scss/cff.scss */
   .socialul {
     display: block;
     width: 50%;
@@ -613,32 +614,32 @@ footer li {
     margin-top: -57px;
     margin-right: 20px;
   }
-  /* line 626, ../scss/cff.scss */
+  /* line 627, ../scss/cff.scss */
   .socialul li {
     float: right;
     list-style-type: none;
     width: 5%;
     margin-right: 10px;
   }
-  /* line 634, ../scss/cff.scss */
+  /* line 635, ../scss/cff.scss */
   .socialul img {
     width: 100%;
     max-width: 100px;
   }
 
-  /* line 647, ../scss/cff.scss */
+  /* line 648, ../scss/cff.scss */
   .row1 {
     width: 80%;
     margin: 0 auto;
   }
 
-  /* line 651, ../scss/cff.scss */
+  /* line 652, ../scss/cff.scss */
   .row3 {
     width: 80%;
     margin: 0 auto;
   }
 
-  /* line 656, ../scss/cff.scss */
+  /* line 657, ../scss/cff.scss */
   .row2 {
     width: 80%;
     margin-left: auto;
@@ -646,26 +647,26 @@ footer li {
     margin-bottom: 25px;
   }
 
-  /* line 662, ../scss/cff.scss */
+  /* line 663, ../scss/cff.scss */
   .col div {
     float: right;
     width: 100%;
     margin-top: 70px;
   }
-  /* line 666, ../scss/cff.scss */
+  /* line 667, ../scss/cff.scss */
   .col div img {
     width: 80%;
     margin-bottom: 30px;
   }
 
-  /* line 671, ../scss/cff.scss */
+  /* line 672, ../scss/cff.scss */
   .inside-wrap {
     width: 50%;
     margin-left: 50px;
     margin-top: 100px;
     padding: 1em;
   }
-  /* line 679, ../scss/cff.scss */
+  /* line 680, ../scss/cff.scss */
   .inside-wrap h1 {
     color: black;
     font-family: din-condensed-bold;
@@ -674,13 +675,13 @@ footer li {
     margin-top: 5px;
     text-transform: uppercase;
   }
-  /* line 688, ../scss/cff.scss */
+  /* line 689, ../scss/cff.scss */
   .inside-wrap p {
     color: black;
     font-family: din-condensed;
     font-size: 24px;
   }
-  /* line 693, ../scss/cff.scss */
+  /* line 694, ../scss/cff.scss */
   .inside-wrap .text-holder {
     margin-top: 0px;
   }

@@ -684,9 +684,9 @@ a growler or a pint:</p>
 function openNav() {
     document.getElementById("sidebar").style.width = "250px";
     document.getElementById("blur-me").style.marginLeft = "250px";
-     document.getElementById("blur-me").style.width= "82%";
+   document.getElementById("sidebar").style.display = "block";
 
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+ 
     document.getElementById("closebtn").style.display= "block";
        document.getElementById("openbtn").style.display= "none";
 }
@@ -694,7 +694,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("sidebar").style.width = "0";
     document.getElementById("blur-me").style.marginLeft= "0px";
-      document.getElementById("blur-me").style.width= "100%";
+      
           document.getElementById("closebtn").style.display= "none";
              document.getElementById("openbtn").style.display= "block";
 
