@@ -56,36 +56,6 @@ li { float: left; }
 
 }
 
-/*  SECTIONS  */
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 2.0%;
-}
-.col:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 66%; }
-.span_1_of_3 { width: 32%; }
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
-
 
 
 
@@ -777,12 +747,12 @@ background: url('../conquest-img/bar.jpeg') no-repeat ;
 }
 
 .beer-box{
-	width:80%;
+	width:100%;
 	margin: 0 auto;
 	text-align:center;
 	background: url('../conquest-img/bggray.png') no-repeat center center;
 	background-size:cover;
-	margin-top:50px;
+	margin-top:0px;
 	margin-bottom:50px;
 
 	h3{
@@ -791,6 +761,7 @@ background: url('../conquest-img/bar.jpeg') no-repeat ;
 		font-weight: 700;
 		width: 100%;
 		text-align: center;
+		display: inline-block;
 		
 		margin: 0 auto;
 		margin-bottom: 30px;
@@ -2163,7 +2134,7 @@ left:0%;
 
 
 } /*end of 800 */
-@media screen and (min-width: 1050px) {
+
 
 
 .unslider-arrow.next{
@@ -2184,9 +2155,6 @@ left:0%;
     margin-left: 25px;
 }
 
-
-
-} /*end of 800 */
 
 
 
