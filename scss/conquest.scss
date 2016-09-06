@@ -14,14 +14,6 @@ clear: both;
 /**********************************/
 
 @font-face {
-font-family: panton-black;
-src: url('../fonts/panton.black-caps.otf');
-
-}
-
-
-
-@font-face {
 font-family: din-condensed-Black;
 src: url('../fonts/din-pro-cond/DINPro-Black.otf');
 
@@ -44,43 +36,6 @@ src: url('../fonts/din-pro-cond/DINPro-CondBold.otf');
 font-family: din-condensed;
 src: url('../fonts/din-pro-cond/DINPro-Cond.otf');
 
-}
-
-
-.textme{
-	position:absolute;
-	z-index:300000;
-	margin: 150px auto;
-	width:100%;
-	text-align:center;
-
-	h1{
-		color: white;
- 
-    font-size: 3em;
-  
-    text-align: center;
-    font-family: panton-black;
-
-	}
-
-	p{
-		color: white;
-		text-align: center;
-		font-size:30px;
-	}
-	button{
-		text-align: center;
-	}
-
-	.red{
-			color: red;
- 
-    font-size: 3em;
-  
-    text-align: center;
-    font-family: panton-black;
-	}
 }
 
 .beer-box:after {
@@ -662,12 +617,6 @@ p{
 color: white;
 
 font-size: 1.5em;
-}
-h1{
-	color:white;
-	font-size:3em;
-	font-family: panton-black;
-	text-align:center;
 }
 }
 
