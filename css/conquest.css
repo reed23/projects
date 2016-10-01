@@ -618,9 +618,7 @@ p {
 }
 
 /* line 654, ../scss/conquest.scss */
-.sidebar {
-  display: none;
-}
+
 
 @keyframes slide-in {
   100% {
